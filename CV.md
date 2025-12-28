@@ -1,19 +1,17 @@
-layout: page
-title: "Curriculum Vitae"
-permalink: /CV
+# Curriculum Vitae
 
-# Education
+## Education
 
 * 2021 ~ current: Massachusetts Institute of Technology
   * Ph.D. in mathematics, advised by [Alexander Postnikov](https://math.mit.edu/~apost/index.html)
 * 2017 ~ 2021: Massachusetts Institute of Technology
   * Undergraduate, major in mathematics and computer science, minor in linguistics
 
-# Research Interests
+## Research Interests
 
 Algebraic and geometric combinatorics, especially combinatorics related to polytopes
 
-# Publications and Preprints
+## Publications and Preprints
 
 (In reverse chronological order)
 
