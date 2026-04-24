@@ -9,12 +9,14 @@
 
 ## Research Interests
 
-Algebraic and geometric combinatorics, especially combinatorics related to polytopes
+Algebraic and geometric combinatorics, especially combinatorics related to matroids and polytopes
 
 ## Publications and Preprints
 
 (In reverse chronological order)
 
+* **Subdivisions of root polytopes and generalized tropical oriented matroids (Extended abstract)**, Yuan Yao, Chenyi Zhang
+  * [arXiv:2603.08539](https://www.arxiv.org/abs/2603.08539) (Full version in progress)
 * **Linkage Axioms for Generic Tropical Oriented Matroids**, Yuan Yao
   * [arXiv:2506.11265](https://www.arxiv.org/abs/2506.11265)
 * **Fine Mixed Subdivisions of a Dilated Triangle**, Yuan Yao, Fedir Yudin
