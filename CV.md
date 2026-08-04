@@ -2,8 +2,9 @@
 
 ## Education
 
-* 2021 ~ current: Massachusetts Institute of Technology
+* 2021 ~ 2026: Massachusetts Institute of Technology
   * Ph.D. in mathematics, advised by [Alexander Postnikov](https://math.mit.edu/~apost/index.html)
+  * Thesis title: The Combinatorics of Triangulations of Products of Two Simplices
 * 2017 ~ 2021: Massachusetts Institute of Technology
   * Undergraduate, major in mathematics and computer science, minor in linguistics
 
@@ -15,6 +16,8 @@ Algebraic and geometric combinatorics, especially combinatorics related to matro
 
 (In reverse chronological order)
 
+* **Binary X-rays of doubly stochastic matrices**, Bangzheng Li, Yuewei Liu, Yuan Yao
+  * [arXiv:2608.01442](https://www.arxiv.org/abs/2608.01442)
 * **Subdivisions of root polytopes, generalized tropical oriented matroids, and generalized matching ensembles**, Tianyu Jiang, Yuan Yao, Qingyue Yu, Chenyi Zhang
   * [arXiv:2603.08539](https://www.arxiv.org/abs/2603.08539)
 * **Linkage Axioms for Generic Tropical Oriented Matroids**, Yuan Yao
