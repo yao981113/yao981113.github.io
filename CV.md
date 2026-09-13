@@ -1,5 +1,10 @@
 # Curriculum Vitae
 
+## Employment
+* 2026 ~ current: Harvard T.H. Chan School of Public Health
+  * Postdoctoral research fellow in Department of Biostatistics, mentored by [Junwei Lu](https://junwei-lu.github.io/)
+  * Work primarily concerns AI-assisted research in mathematics
+
 ## Education
 
 * 2021 ~ 2026: Massachusetts Institute of Technology
