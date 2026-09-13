@@ -1,6 +1,6 @@
 <img align="right" src="/selfie.jpg" height="400">
 
-Email: yannickyao1998@gmail.com
+Email: [yannickyao1998@gmail.com](mailto:yannickyao1998@gmail.com)
 
 I am currently a [research fellow](https://hsph.harvard.edu/profile/yuan-yao/) in the biostatistics department at Harvard School of Public Health.
 
