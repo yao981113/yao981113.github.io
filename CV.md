@@ -21,6 +21,8 @@ Algebraic and geometric combinatorics, especially combinatorics related to matro
 
 (In reverse chronological order)
 
+* **Unimodality of Independence Polynomials for Sufficiently Large Forests**, Ethan X. Fang, Junwei Lu, Eran Nevo, Yuan Yao, Hailun Zheng (+AI)
+  * [arXiv:2609.20961](https://www.arxiv.org/abs/2609.20961)
 * **Binary X-rays of doubly stochastic matrices**, Bangzheng Li, Yuewei Liu, Yuan Yao
   * [arXiv:2608.01442](https://www.arxiv.org/abs/2608.01442)
 * **Subdivisions of root polytopes, generalized tropical oriented matroids, and generalized matching ensembles**, Tianyu Jiang, Yuan Yao, Qingyue Yu, Chenyi Zhang
