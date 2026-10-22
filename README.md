@@ -11,4 +11,5 @@ This site is still very much under construction.
 ---
 
 [Curriculum Vitae](CV.md)
+
 [Puzzles](puzzles.md)
