@@ -4,7 +4,7 @@ I enjoy solving puzzles, mostly logic puzzles and puzzle hunts. I have also writ
 
 ## Galactic Puzzle Hunt
 
-I have been hunting with ✈️✈️✈️Galactic Trendsetters✈️✈️✈️ since 2018, and have been involved in the puzzle hunt that the team organizes every year since then. 
+I have been hunting with [✈️✈️✈️Galactic Trendsetters✈️✈️✈️](https://www.puzzles.wiki/wiki/%E2%9C%88%E2%9C%88%E2%9C%88_Galactic_Trendsetters_%E2%9C%88%E2%9C%88%E2%9C%88) since 2018, and have been involved in the online puzzle hunt that the team organizes every year since then. 
 The list of past hunts can be found at [here](https://galacticpuzzlehunt.com/archive).
 
 * 2026
@@ -46,7 +46,7 @@ The list of past hunts can be found at [here](https://galacticpuzzlehunt.com/arc
 
 ## MIT Mystery Hunt
 
-✈️✈️✈️Galactic Trendsetters✈️✈️✈️ won [MIT Mystery Hunt](https://puzzles.mit.edu/) in 2020 and hence wrote [the one in 2021](https://puzzles.mit.edu/2021/).
+This is an annual in-person puzzle hunt held at MIT every year, generally considered the most important puzzle hunt in the community. ✈️✈️✈️Galactic Trendsetters✈️✈️✈️ won [MIT Mystery Hunt](https://puzzles.mit.edu/) in 2020 and hence I helped write [the one in 2021](https://puzzles.mit.edu/2021/).
 
 * [Better Bridges](https://puzzles.mit.edu/2021/puzzle/better-bridges/)
 * [MIT Confessions](https://puzzles.mit.edu/2021/puzzle/mit-confessions/)
@@ -57,7 +57,7 @@ The list of past hunts can be found at [here](https://galacticpuzzlehunt.com/arc
 
 ## Cipher & Code Breaking Competition (CCBC)
 
-This is an annual puzzle hunt in China, following a similar format as MIT Mystery Hunt where the winning team each year writes the next hunt. I was on the team who won CCBC 11 and hence wrote [CCBC 12](https://ccbc12.cipherpuzzles.com/) in 2022.
+This is an annual online puzzle hunt in China, following a similar format as MIT Mystery Hunt where the winning team each year writes the next hunt. I was on the team who won CCBC 11 and hence helped write [CCBC 12](https://ccbc12.cipherpuzzles.com/) in 2022.
 
 (TODO add list)
 
