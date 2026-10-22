@@ -83,3 +83,5 @@ This is an annual-ish puzzle competition held in Hungary, where solvers have to 
   * This one was originally intended for 24HPC, but since it was cancelled we repurposed it as a stand-alone online contest.
 * [2025 (Team China)](https://drive.google.com/drive/folders/1KPxVS-7BhW5iybGcLuF-_9Igr5WdJPj6) (1, 6, 11, 16, 21)
 * [2024 (Puzzlers Club, Zodiac)](https://drive.google.com/drive/folders/1XyWnw_2ZznDYOk5PFspLgQxI3NLLuflZ) (Tiger, Snake, Goat, Pig, Aries, Virgo)
+
+(Many thanks to Ivan Koswara (chaotic_iak) for maintaining the archive.)
