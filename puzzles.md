@@ -57,7 +57,7 @@ The list of past hunts can be found at [here](https://galacticpuzzlehunt.com/arc
 
 ## Cipher & Code Breaking Competition (CCBC)
 
-This is an annual puzzle hunt in China, following a similar format as MIT Mystery Hunt where the winning team each year writes the next hunt. I was on the team who won CCBC 11 and hence wrote [CCBC 12](https://archive.cipherpuzzles.com/index.html#/index?c=ccbc12/index) in 2022.
+This is an annual puzzle hunt in China, following a similar format as MIT Mystery Hunt where the winning team each year writes the next hunt. I was on the team who won CCBC 11 and hence wrote [CCBC 12](https://ccbc12.cipherpuzzles.com/) in 2022.
 
 (TODO add list)
 
