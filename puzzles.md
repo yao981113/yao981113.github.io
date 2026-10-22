@@ -20,6 +20,7 @@ The list of past hunts can be found [here](https://galacticpuzzlehunt.com/archiv
   * [Grid Logic](https://2025.galacticpuzzlehunt.com/puzzle/grid_logic)
   * [Identify... INDEX, Solve](https://2025.galacticpuzzlehunt.com/puzzle/identify_index_solve)
 * 2024
+  (Most of the puzzles this year are "micropuzzles" and hence much smaller/easier than usual.)
   * [CRO/SSW/ORD](https://2024.galacticpuzzlehunt.com/puzzle/cro_ssw_ord), [C/R/O/S/S/W/O/R/D](https://2024.galacticpuzzlehunt.com/puzzle/c_r_o_s_s_w_o_r_d), [C/RO/SSW/OR/D](https://2024.galacticpuzzlehunt.com/puzzle/c_ro_ssw_or_d)
   * [Grade 2 Haptics](https://2024.galacticpuzzlehunt.com/puzzle/grade_2_haptics)
   * [Sums](https://2024.galacticpuzzlehunt.com/puzzle/sums)
@@ -67,7 +68,7 @@ This is a puzzle hunt that I helped start in high school after participating in 
 
 ## World Puzzle Championship (WPC)
 
-The World Puzzle Championship is the premier international event on competitive logic puzzle solving. I particulated in WPC in 2023 (in Canada) and 2025 (in Hungary). The WPC in 2024 was held in China and I was on the writing team.
+The World Puzzle Championship is the premier international event on competitive logic puzzle solving. I participated in WPC in 2023 (in Canada) and 2025 (in Hungary). The WPC in 2024 was held in China and I was on the writing team.
 
 The puzzles from that event are not public but can be purchased [here](https://worldpuzzle.org/championships/wspc-2024-beijing-china). The instruction booklet, containing the list of all puzzles as well as their instructions and examples, is [available for free](https://worldpuzzle.org/wp-content/uploads/2026/09/WPC2024_IB_v2.1.pdf).
 
