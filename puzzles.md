@@ -84,4 +84,4 @@ This is an annual-ish logic puzzle competition held in Hungary, where solvers ha
 * [2025 (Team China)](https://drive.google.com/file/d/1ZR_63QEhaNiR25Cz5tcHpwS4Lg5Es4pd/view?usp=sharing) (1, 6, 11, 16, 21)
 * [2024 (Puzzlers Club, Zodiac Round)](https://drive.google.com/file/d/1XzLQvCLD05sbF7ILi69udTsgCL5cbhC5/view?usp=sharing) (Tiger, Snake, Goat, Pig, Aries, Virgo)
 
-(Many thanks to Ivan Koswara (chaotic_iak) for maintaining the archive.)
+(Many thanks to Ivan Koswara (chaotic_iak) for maintaining the [archive](https://drive.google.com/drive/folders/1-3mu8j8zg6HPI0-72KyTAhtn2V_IYjM5).)
