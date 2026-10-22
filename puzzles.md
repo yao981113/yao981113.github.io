@@ -53,11 +53,11 @@ The list of past hunts can be found at [here](https://galacticpuzzlehunt.com/arc
 * [Rhythm Game Arcade](https://puzzles.mit.edu/2021/puzzle/rhythm-game-arcade/)
 * [Thank You to Our Sponsors](https://puzzles.mit.edu/2021/puzzle/thank-you-to-our-sponsors/)
 * [Powerful Point](https://puzzles.mit.edu/2021/puzzle/powerful-point/)
-* I was also involved in the original concept of the [⊥IW.giga](https://puzzles.mit.edu/2021/round/giga/) and [Endgame](https://puzzles.mit.edu/2021/endgame.html).
+* I was also involved in the original concept of the [⊥IW.giga](https://puzzles.mit.edu/2021/round/giga/) round and [Endgame](https://puzzles.mit.edu/2021/endgame.html).
 
 ## Cipher & Code Breaking Competition (CCBC)
 
-This is an annual puzzle hunt in China, following a similar format as MIT Mystery Hunt where the winning team each year writes the next hunt. I was on the team who won CCBC 11 and hence wrote [CCBC 12](https://archive.cipherpuzzles.com/index.html#/index?c=ccbc12/index).
+This is an annual puzzle hunt in China, following a similar format as MIT Mystery Hunt where the winning team each year writes the next hunt. I was on the team who won CCBC 11 and hence wrote [CCBC 12](https://archive.cipherpuzzles.com/index.html#/index?c=ccbc12/index) in 2022.
 
 (TODO add list)
 
