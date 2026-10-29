@@ -9,7 +9,7 @@
 
 * 2021 ~ 2026: Massachusetts Institute of Technology
   * Ph.D. in mathematics, advised by [Alexander Postnikov](https://math.mit.edu/~apost/index.html)
-  * Thesis: [The Combinatorics of Triangulations of Products of Two Simplices](https://dspace.mit.edu/entities/publication/5d9989d2-5270-441d-912b-4a8d0478974c)
+  * Thesis: [The Combinatorics of Triangulations of Products of Two Simplices](https://dspace.mit.edu/handle/1721.1/174592)
 * 2017 ~ 2021: Massachusetts Institute of Technology
   * Undergraduate, major in mathematics and computer science, minor in linguistics
 
