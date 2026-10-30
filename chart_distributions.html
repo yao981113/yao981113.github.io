@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Rhythm game chart distributions</title>
+    <title>Rhythm game chart difficulty distributions</title>
     <style>
       body {
         font:
@@ -186,7 +186,9 @@
         margin: 30px 0 12px;
       }
       .game-section,
-      .mode-section {
+      .mode-section,
+      .game-section > h3,
+      .mode-section > h4 {
         scroll-margin-top: 20px;
       }
       .mode-controls {
@@ -235,7 +237,7 @@
     <p>
       Public-source snapshot checked on <b>29–30 October 2026</b>. Each cell counts charts, not
       songs. Regional arcade scope is specified for each game. PC and mobile catalogues include paid
-      and unlockable content.
+      and unlockable content. All games use the most recent version with available data.
     </p>
     <p>
       <b>44 games · 55 tables · 137,021 charts displayed</b>. Most games with at least 500 (arcade)
@@ -259,57 +261,57 @@
       <div class="nav-group" role="group" aria-labelledby="nav-arcade">
         <h2 class="nav-type" id="nav-arcade">Arcade</h2>
         <div class="nav-links">
-          <a href="#g0">Sound Voltex</a><a href="#game-g1">Beatmania IIDX</a
-          ><a href="#game-g3">Dance Dance Revolution</a><a href="#g5">Maimai</a
-          ><a href="#g6">Chunithm</a><a href="#g16">Ongeki</a><a href="#g7">pop’n music</a
-          ><a href="#g15">jubeat</a><a href="#g43">Nostalgia</a><a href="#g44">REFLEC BEAT</a
-          ><a href="#g14">Taiko no Tatsujin</a><a href="#g45">Groove Coaster</a
-          ><a href="#game-g41">Pump It Up</a><a href="#game-g46">StepManiaX</a>
+          <a href="#sound-voltex">Sound Voltex</a><a href="#beatmania-iidx">Beatmania IIDX</a
+          ><a href="#dance-dance-revolution">Dance Dance Revolution</a><a href="#maimai">Maimai</a
+          ><a href="#chunithm">Chunithm</a><a href="#ongeki">Ongeki</a><a href="#popn-music">pop’n music</a
+          ><a href="#jubeat">jubeat</a><a href="#nostalgia">Nostalgia</a><a href="#reflec-beat">REFLEC BEAT</a
+          ><a href="#taiko-no-tatsujin">Taiko no Tatsujin</a><a href="#groove-coaster">Groove Coaster</a
+          ><a href="#pump-it-up">Pump It Up</a><a href="#stepmaniax">StepManiaX</a>
         </div>
       </div>
       <div class="nav-group" role="group" aria-labelledby="nav-pc">
         <h2 class="nav-type" id="nav-pc">PC</h2>
         <div class="nav-links">
-          <a href="#game-g49">MUSYNX</a><a href="#game-g51">KALPA: Cosmic Symphony</a
-          ><a href="#game-g53">Sixtar Gate: STARTRAIL</a
-          ><a href="#game-g55">Touhou Danmaku Kagura Phantasia Lost</a>
+          <a href="#musynx">MUSYNX</a><a href="#kalpa-cosmic-symphony">KALPA: Cosmic Symphony</a
+          ><a href="#sixtar-gate-startrail">Sixtar Gate: STARTRAIL</a
+          ><a href="#touhou-danmaku-kagura-phantasia-lost">Touhou Danmaku Kagura Phantasia Lost</a>
         </div>
       </div>
       <div class="nav-group" role="group" aria-labelledby="nav-mobile">
         <h2 class="nav-type" id="nav-mobile">Mobile</h2>
         <div class="nav-links">
-          <a href="#g17">Arcaea</a>
-          <a href="#g18">Lanota</a>
-          <a href="#g19">Phigros</a>
-          <a href="#g20">Dynamix</a>
-          <a href="#g40">Cytus</a>
-          <a href="#g21">Cytus II</a>
-          <a href="#g24">DEEMO</a>
-          <a href="#g23">DEEMO II</a>
-          <a href="#g29">VOEZ</a>
-          <a href="#g22">Muse Dash</a>
-          <a href="#g25">Paradigm: Reboot</a>
-          <a href="#g28">Rotaeno</a>
-          <a href="#g31">Orzmic</a>
-          <a href="#g60">Berry Melody</a>
-          <a href="#g59">polytone</a>
-          <a href="#g30">TAKUMI³</a>
-          <a href="#g57">ChainBeeT</a>
-          <a href="#g58">DanceRail3</a>
-          <a href="#game-g26">KALPA</a>
-          <a href="#game-g61">OverRapid</a>
-          <a href="#g32">Project SEKAI</a>
-          <a href="#g33">BanG Dream! Girls Band Party!</a>
-          <a href="#g34">Ensemble Stars!! Music</a>
-          <a href="#g35">D4DJ Groovy Mix</a>
-          <a href="#g36">Million Live! Theater Days</a>
-          <a href="#g63">BlackStar –Theater Starless–</a>
+          <a href="#arcaea">Arcaea</a>
+          <a href="#lanota">Lanota</a>
+          <a href="#phigros">Phigros</a>
+          <a href="#dynamix">Dynamix</a>
+          <a href="#cytus">Cytus</a>
+          <a href="#cytus-ii">Cytus II</a>
+          <a href="#deemo">DEEMO</a>
+          <a href="#deemo-ii">DEEMO II</a>
+          <a href="#voez">VOEZ</a>
+          <a href="#muse-dash">Muse Dash</a>
+          <a href="#paradigm-reboot">Paradigm: Reboot</a>
+          <a href="#rotaeno">Rotaeno</a>
+          <a href="#orzmic">Orzmic</a>
+          <a href="#berry-melody">Berry Melody</a>
+          <a href="#polytone">polytone</a>
+          <a href="#takumi3">TAKUMI³</a>
+          <a href="#chainbeet">ChainBeeT</a>
+          <a href="#dancerail3">DanceRail3</a>
+          <a href="#kalpa">KALPA</a>
+          <a href="#overrapid">OverRapid</a>
+          <a href="#project-sekai">Project SEKAI</a>
+          <a href="#bang-dream-girls-band-party">BanG Dream! Girls Band Party!</a>
+          <a href="#ensemble-stars-music">Ensemble Stars!! Music</a>
+          <a href="#d4dj-groovy-mix">D4DJ Groovy Mix</a>
+          <a href="#million-live-theater-days">Million Live! Theater Days</a>
+          <a href="#blackstar-theater-starless">BlackStar –Theater Starless–</a>
         </div>
       </div>
     </nav>
     <h2 class="platform-heading">Arcade</h2>
-    <section class="game-section" id="g0" aria-labelledby="g0-heading">
-      <h3 id="g0-heading">Sound Voltex — ∇ (Nabla)</h3>
+    <section class="game-section" id="g0" aria-labelledby="sound-voltex">
+      <h3 id="sound-voltex">Sound Voltex — ∇ (Nabla)</h3>
       <p class="game-description">
         Japan, Valkyrie model. Decimal displayed levels retained. EXTRA combines INFINITE, GRAVITY,
         HEAVENLY, VIVID, EXCEED, NABLA and ULTIMATE.
@@ -5038,8 +5040,8 @@
         Sources: <a href="https://w.atwiki.jp/sdvx/pages/12407.html">w.atwiki.jp</a>
       </p>
     </section>
-    <section class="game-section" id="game-g1" aria-labelledby="game-g1-heading">
-      <h3 id="game-g1-heading">Beatmania IIDX — 34 ZINRAI</h3>
+    <section class="game-section" id="game-g1" aria-labelledby="beatmania-iidx">
+      <h3 id="beatmania-iidx">Beatmania IIDX — 34 ZINRAI</h3>
       <p class="game-description">
         Japan. Single Play and Double Play counted as separate charts. Carried-over songs plus
         currently listed ZINRAI additions.
@@ -5051,8 +5053,8 @@
           DP
         </button>
       </div>
-      <section class="mode-section" id="g1" aria-labelledby="g1-heading">
-        <h4 id="g1-heading">SP</h4>
+      <section class="mode-section" id="g1" aria-labelledby="beatmania-iidx-sp">
+        <h4 id="beatmania-iidx-sp">SP</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -6582,8 +6584,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g2" aria-labelledby="g2-heading" hidden>
-        <h4 id="g2-heading">DP</h4>
+      <section class="mode-section" id="g2" aria-labelledby="beatmania-iidx-dp" hidden>
+        <h4 id="beatmania-iidx-dp">DP</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -8032,8 +8034,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="game-g3" aria-labelledby="game-g3-heading">
-      <h3 id="game-g3-heading">Dance Dance Revolution — WORLD</h3>
+    <section class="game-section" id="game-g3" aria-labelledby="dance-dance-revolution">
+      <h3 id="dance-dance-revolution">Dance Dance Revolution — WORLD</h3>
       <p class="game-description">Japan. Single and Double counted separately.</p>
       <div class="mode-controls" role="group" aria-label="Dance Dance Revolution play mode">
         <span>Mode:</span
@@ -8042,8 +8044,8 @@ z
           DP
         </button>
       </div>
-      <section class="mode-section" id="g3" aria-labelledby="g3-heading">
-        <h4 id="g3-heading">SP</h4>
+      <section class="mode-section" id="g3" aria-labelledby="dance-dance-revolution-sp">
+        <h4 id="dance-dance-revolution-sp">SP</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -10060,8 +10062,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g4" aria-labelledby="g4-heading" hidden>
-        <h4 id="g4-heading">DP</h4>
+      <section class="mode-section" id="g4" aria-labelledby="dance-dance-revolution-dp" hidden>
+        <h4 id="dance-dance-revolution-dp">DP</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -11891,8 +11893,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g5" aria-labelledby="g5-heading">
-      <h3 id="g5-heading">Maimai — DX MAGiCAL</h3>
+    <section class="game-section" id="g5" aria-labelledby="maimai">
+      <h3 id="maimai">Maimai — DX MAGiCAL</h3>
       <p class="game-description">
         Japan. Standard and DX counts are combined by difficulty label, retaining each distinct
         chart. Constants matched to the official catalogue, supplemented by individual Gamerch song
@@ -17598,8 +17600,8 @@ z
         <a href="https://gamerch.com/maimai/">gamerch.com</a>
       </p>
     </section>
-    <section class="game-section" id="g6" aria-labelledby="g6-heading">
-      <h3 id="g6-heading">Chunithm — Mate</h3>
+    <section class="game-section" id="g6" aria-labelledby="chunithm">
+      <h3 id="chunithm">Chunithm — Mate</h3>
       <p class="game-description">
         Japan. All included charts use constants. WORLD&#x27;S END excluded.
       </p>
@@ -23085,8 +23087,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g16" aria-labelledby="g16-heading">
-      <h3 id="g16-heading">Ongeki — Re:Fresh Act.2</h3>
+    <section class="game-section" id="g16" aria-labelledby="ongeki">
+      <h3 id="ongeki">Ongeki — Re:Fresh Act.2</h3>
       <p class="game-description">
         Japan. Official catalogue mirrored by otoge-db, with wiki and research-table constants.
         Alternate vocal bonus entries that reuse the same charts count once. Numeric Re:MASTER and
@@ -28096,8 +28098,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g7" aria-labelledby="g7-heading">
-      <h3 id="g7-heading">pop’n music — High☆Cheers!!</h3>
+    <section class="game-section" id="g7" aria-labelledby="popn-music">
+      <h3 id="popn-music">pop’n music — High☆Cheers!!</h3>
       <p class="game-description">
         Japan. Current carried-over and new-song lists. Distinct UPPER arrangements remain separate
         chart identities. Separate star-rated Battle charts are excluded.
@@ -31795,8 +31797,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g15" aria-labelledby="g15-heading">
-      <h3 id="g15-heading">jubeat — beyond the Ave.</h3>
+    <section class="game-section" id="g15" aria-labelledby="jubeat">
+      <h3 id="jubeat">jubeat — beyond the Ave.</h3>
       <p class="game-description">
         Japan. Normal and hold chart sets are distinct charts and are combined under their
         difficulty labels. Displayed decimal levels are used.
@@ -34677,8 +34679,8 @@ z
         >, <a href="https://w.atwiki.jp/jubeat/pages/2333.html">w.atwiki.jp</a>
       </p>
     </section>
-    <section class="game-section" id="g43" aria-labelledby="g43-heading">
-      <h3 id="g43-heading">Nostalgia — Op.3 · 29 October 2026</h3>
+    <section class="game-section" id="g43" aria-labelledby="nostalgia">
+      <h3 id="nostalgia">Nostalgia — Op.3 · 29 October 2026</h3>
       <p class="game-description">
         Japan catalogue. REAL uses its internal numeric difficulty, as used by Grade and MISSION
         BINGO, rather than its separate diamond scale. Other labels use displayed levels; removed
@@ -37400,8 +37402,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g44" aria-labelledby="g44-heading">
-      <h3 id="g44-heading">REFLEC BEAT — The Reflesia of Eternity · official current list</h3>
+    <section class="game-section" id="g44" aria-labelledby="reflec-beat">
+      <h3 id="reflec-beat">REFLEC BEAT — The Reflesia of Eternity · official current list</h3>
       <p class="game-description">
         Japan catalogue from the current official music list. All five original-song pages and the
         licensed-song page are included. Displayed levels are used; WHITE HARD shares the ordinary
@@ -38892,8 +38894,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g14" aria-labelledby="g14-heading">
-      <h3 id="g14-heading">Taiko no Tatsujin — Nijiiro 2026</h3>
+    <section class="game-section" id="g14" aria-labelledby="taiko-no-tatsujin">
+      <h3 id="taiko-no-tatsujin">Taiko no Tatsujin — Nijiiro 2026</h3>
       <p class="game-description">
         Japan. Union of the eight current genre lists; songs repeated across genres count once.
         Numeric star ratings are retained, including branching and simplified beginner annotations.
@@ -40349,8 +40351,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g45" aria-labelledby="g45-heading">
-      <h3 id="g45-heading">Groove Coaster — 4MAX DIAMOND GALAXY 4.75 · final offline catalogue</h3>
+    <section class="game-section" id="g45" aria-labelledby="groove-coaster">
+      <h3 id="groove-coaster">Groove Coaster — 4MAX DIAMOND GALAXY 4.75 · final offline catalogue</h3>
       <p class="game-description">
         Final arcade offline catalogue (4.75, 1 April 2024). Uses the current post-removal song rows
         and their version-4 numeric ratings; historical and removed-song sections are excluded.
@@ -41940,8 +41942,8 @@ z
         <a href="https://arcade-songs.zetaraku.dev/gc/">arcade-songs.zetaraku.dev</a>
       </p>
     </section>
-    <section class="game-section" id="game-g41" aria-labelledby="game-g41-heading">
-      <h3 id="game-g41-heading">Pump It Up — PHOENIX 2 · 29 October 2026</h3>
+    <section class="game-section" id="game-g41" aria-labelledby="pump-it-up">
+      <h3 id="pump-it-up">Pump It Up — PHOENIX 2 · 29 October 2026</h3>
       <p class="game-description">
         Current PHOENIX 2 catalogue, including full songs, remixes and short cuts. Multiple charts of
         one type remain distinct. CO-OP player-count ratings, UCS and fan difficulty estimates are
@@ -41955,8 +41957,8 @@ z
           Double
         </button>
       </div>
-      <section class="mode-section" id="g41" aria-labelledby="g41-heading">
-        <h4 id="g41-heading">Single</h4>
+      <section class="mode-section" id="g41" aria-labelledby="pump-it-up-single">
+        <h4 id="pump-it-up-single">Single</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -43671,8 +43673,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g42" aria-labelledby="g42-heading" hidden>
-        <h4 id="g42-heading">Double</h4>
+      <section class="mode-section" id="g42" aria-labelledby="pump-it-up-double" hidden>
+        <h4 id="pump-it-up-double">Double</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -45392,8 +45394,8 @@ z
         <a href="https://www.andamiro.com/games/pumpituplx">www.andamiro.com</a>
       </p>
     </section>
-    <section class="game-section" id="game-g46" aria-labelledby="game-g46-heading">
-      <h3 id="game-g46-heading">StepManiaX — Catalogue through update 83 · 29 October 2026</h3>
+    <section class="game-section" id="game-g46" aria-labelledby="stepmaniax">
+      <h3 id="stepmaniax">StepManiaX — Catalogue through update 83 · 29 October 2026</h3>
       <p class="game-description">
         559 enabled songs, including paid content. Single, Double and cooperative Team are separate.
         Plus labels denote distinct charts. Current chart metadata supplies Single/Double ratings;
@@ -45410,8 +45412,8 @@ z
           Team
         </button>
       </div>
-      <section class="mode-section" id="g46" aria-labelledby="g46-heading">
-        <h4 id="g46-heading">Single</h4>
+      <section class="mode-section" id="g46" aria-labelledby="stepmaniax-single">
+        <h4 id="stepmaniax-single">Single</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -47661,8 +47663,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g47" aria-labelledby="g47-heading" hidden>
-        <h4 id="g47-heading">Double</h4>
+      <section class="mode-section" id="g47" aria-labelledby="stepmaniax-double" hidden>
+        <h4 id="stepmaniax-double">Double</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -49989,8 +49991,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g48" aria-labelledby="g48-heading" hidden>
-        <h4 id="g48-heading">Team</h4>
+      <section class="mode-section" id="g48" aria-labelledby="stepmaniax-team" hidden>
+        <h4 id="stepmaniax-team">Team</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -51540,8 +51542,8 @@ z
       </p>
     </section>
     <h2 class="platform-heading">PC</h2>
-    <section class="game-section" id="game-g49" aria-labelledby="game-g49-heading">
-      <h3 id="game-g49-heading">MUSYNX — Steam catalogue · 29 October 2026</h3>
+    <section class="game-section" id="game-g49" aria-labelledby="musynx">
+      <h3 id="musynx">MUSYNX — Steam catalogue · 29 October 2026</h3>
       <p class="game-description">
         Steam catalogue. 4K and 6K are counted separately. Removed songs are excluded; ordinary
         displayed levels are used.
@@ -51554,8 +51556,8 @@ z
           6K
         </button>
       </div>
-      <section class="mode-section" id="g49" aria-labelledby="g49-heading">
-        <h4 id="g49-heading">4K</h4>
+      <section class="mode-section" id="g49" aria-labelledby="musynx-4k">
+        <h4 id="musynx-4k">4K</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -52952,8 +52954,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g50" aria-labelledby="g50-heading" hidden>
-        <h4 id="g50-heading">6K</h4>
+      <section class="mode-section" id="g50" aria-labelledby="musynx-6k" hidden>
+        <h4 id="musynx-6k">6K</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -54342,8 +54344,8 @@ z
         <a href="https://wikiwiki.jp/musynx/SongList">wikiwiki.jp</a>
       </p>
     </section>
-    <section class="game-section" id="game-g51" aria-labelledby="game-g51-heading">
-      <h3 id="game-g51-heading">KALPA: Cosmic Symphony — Official catalogue · 29 October 2026</h3>
+    <section class="game-section" id="game-g51" aria-labelledby="kalpa-cosmic-symphony">
+      <h3 id="kalpa-cosmic-symphony">KALPA: Cosmic Symphony — Official catalogue · 29 October 2026</h3>
       <p class="game-description">
         Official PC catalogue, including paid packs. 4K and 5K are separate. ASTRA uses a separate
         star scale and is excluded.
@@ -54356,8 +54358,8 @@ z
           5K
         </button>
       </div>
-      <section class="mode-section" id="g51" aria-labelledby="g51-heading">
-        <h4 id="g51-heading">4K</h4>
+      <section class="mode-section" id="g51" aria-labelledby="kalpa-cosmic-symphony-4k">
+        <h4 id="kalpa-cosmic-symphony-4k">4K</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -56046,8 +56048,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g52" aria-labelledby="g52-heading" hidden>
-        <h4 id="g52-heading">5K</h4>
+      <section class="mode-section" id="g52" aria-labelledby="kalpa-cosmic-symphony-5k" hidden>
+        <h4 id="kalpa-cosmic-symphony-5k">5K</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -57718,8 +57720,8 @@ z
         <a href="https://queseragames.net/en/games/cosmic-symphony/tracklist/">queseragames.net</a>
       </p>
     </section>
-    <section class="game-section" id="game-g53" aria-labelledby="game-g53-heading">
-      <h3 id="game-g53-heading">Sixtar Gate: STARTRAIL — 29 October 2026</h3>
+    <section class="game-section" id="game-g53" aria-labelledby="sixtar-gate-startrail">
+      <h3 id="sixtar-gate-startrail">Sixtar Gate: STARTRAIL — 29 October 2026</h3>
       <p class="game-description">
         PC STARTRAIL catalogue. LUNAR (4–5 keys) and SOLAR (6–7 keys) are separate. Two unavailable
         joke entries and the separate MYSTIC rating scale are excluded.
@@ -57732,8 +57734,8 @@ z
           SOLAR
         </button>
       </div>
-      <section class="mode-section" id="g53" aria-labelledby="g53-heading">
-        <h4 id="g53-heading">LUNAR</h4>
+      <section class="mode-section" id="g53" aria-labelledby="sixtar-gate-startrail-lunar">
+        <h4 id="sixtar-gate-startrail-lunar">LUNAR</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -59315,8 +59317,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g54" aria-labelledby="g54-heading" hidden>
-        <h4 id="g54-heading">SOLAR</h4>
+      <section class="mode-section" id="g54" aria-labelledby="sixtar-gate-startrail-solar" hidden>
+        <h4 id="sixtar-gate-startrail-solar">SOLAR</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -60889,8 +60891,8 @@ z
         Sources: <a href="https://wikiwiki.jp/sixtargate/SongList">wikiwiki.jp</a>
       </p>
     </section>
-    <section class="game-section" id="game-g55" aria-labelledby="game-g55-heading">
-      <h3 id="game-g55-heading">
+    <section class="game-section" id="game-g55" aria-labelledby="touhou-danmaku-kagura-phantasia-lost">
+      <h3 id="touhou-danmaku-kagura-phantasia-lost">
         Touhou Danmaku Kagura Phantasia Lost — PC catalogue · 29 October 2026
       </h3>
       <p class="game-description">
@@ -60910,8 +60912,8 @@ z
           6K
         </button>
       </div>
-      <section class="mode-section" id="g55" aria-labelledby="g55-heading">
-        <h4 id="g55-heading">4K</h4>
+      <section class="mode-section" id="g55" aria-labelledby="touhou-danmaku-kagura-phantasia-lost-4k">
+        <h4 id="touhou-danmaku-kagura-phantasia-lost-4k">4K</h4>
         <div class="chart-switcher">
           <div
             class="chart-controls"
@@ -65101,8 +65103,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g56" aria-labelledby="g56-heading" hidden>
-        <h4 id="g56-heading">6K</h4>
+      <section class="mode-section" id="g56" aria-labelledby="touhou-danmaku-kagura-phantasia-lost-6k" hidden>
+        <h4 id="touhou-danmaku-kagura-phantasia-lost-6k">6K</h4>
         <div class="chart-switcher">
           <div
             class="chart-controls"
@@ -69353,8 +69355,8 @@ z
       </p>
     </section>
     <h2 class="platform-heading">Mobile</h2>
-    <section class="game-section" id="g17" aria-labelledby="g17-heading">
-      <h3 id="g17-heading">Arcaea — 7.1.0</h3>
+    <section class="game-section" id="g17" aria-labelledby="arcaea">
+      <h3 id="arcaea">Arcaea — 7.1.0</h3>
       <p class="game-description">
         Mobile catalogue through 7.1.0. EXTRA combines Eternal, Beyond and Inscribed. Individual
         song pages supply constants omitted by summary tables. Château de cartes Past remains
@@ -73287,8 +73289,8 @@ z
         >, <a href="https://wikiwiki.jp/arcaea/Ch%C3%A2teau%20de%20cartes">wikiwiki.jp</a>
       </p>
     </section>
-    <section class="game-section" id="g18" aria-labelledby="g18-heading">
-      <h3 id="g18-heading">Lanota — 4.3</h3>
+    <section class="game-section" id="g18" aria-labelledby="lanota">
+      <h3 id="lanota">Lanota — 4.3</h3>
       <p class="game-description">
         Global mobile. 2,944 charts across 736 chart sets, including 7 retained Legacy sets. All
         charts use displayed ratings because usable constants were unavailable. Event/purchase
@@ -76520,8 +76522,8 @@ z
         <a href="https://wikiwiki.jp/lanotagame/Rating">wikiwiki.jp</a>
       </p>
     </section>
-    <section class="game-section" id="g19" aria-labelledby="g19-heading">
-      <h3 id="g19-heading">Phigros — 4.0.1 (resource 4.0.1.2)</h3>
+    <section class="game-section" id="g19" aria-labelledby="phigros">
+      <h3 id="phigros">Phigros — 4.0.1 (resource 4.0.1.2)</h3>
       <p class="game-description">
         1,037 EZ/HD/IN/AT charts; the 4 Legacy charts are excluded. Tutorial and
         temporary joke charts excluded. Includes regional content in the resource catalogue.
@@ -82442,8 +82444,8 @@ z
         <a href="https://github.com/7aGiven/Phigros_Resource/tree/info">github.com</a>
       </p>
     </section>
-    <section class="game-section" id="g20" aria-labelledby="g20-heading">
-      <h3 id="g20-heading">Dynamix — 3.18.0</h3>
+    <section class="game-section" id="g20" aria-labelledby="dynamix">
+      <h3 id="dynamix">Dynamix — 3.18.0</h3>
       <p class="game-description">
         Original Dynamix, not Dynamix Universe. Current regular/event/pack catalogue plus Wave Test
         reward charts from individual song pages. Unreleased, live-event-only and abandoned
@@ -83917,8 +83919,8 @@ z
         Sources: <a href="https://dynamix.miraheze.org/wiki/Songs">dynamix.miraheze.org</a>
       </p>
     </section>
-    <section class="game-section" id="g40" aria-labelledby="g40-heading">
-      <h3 id="g40-heading">Cytus — 10.1.8</h3>
+    <section class="game-section" id="g40" aria-labelledby="cytus">
+      <h3 id="cytus">Cytus — 10.1.8</h3>
       <p class="game-description">
         All 442 charts (221 EASY and 221 HARD), including the 11 Alive sets and playable
         hidden/alternate charts, including original Chapter L charts. Cytus α exclusives are
@@ -84979,8 +84981,8 @@ z
         >, <a href="https://cytus.fandom.com/wiki/Cytus_Update_History">cytus.fandom.com</a>
       </p>
     </section>
-    <section class="game-section" id="g21" aria-labelledby="g21-heading">
-      <h3 id="g21-heading">Cytus II — 5.3</h3>
+    <section class="game-section" id="g21" aria-labelledby="cytus-ii">
+      <h3 id="cytus-ii">Cytus II — 5.3</h3>
       <p class="game-description">
         Mobile catalogue through 5.3. EXTRA combines GLITCH, DREAM and DROP (130 charts). Includes
         paid and previously purchased limited collaboration content. Displayed + ratings converted
@@ -88223,8 +88225,8 @@ z
         <a href="https://apps.apple.com/us/app/cytus-ii/id1290687550">apps.apple.com</a>
       </p>
     </section>
-    <section class="game-section" id="g24" aria-labelledby="g24-heading">
-      <h3 id="g24-heading">DEEMO — 5.0 content</h3>
+    <section class="game-section" id="g24" aria-labelledby="deemo">
+      <h3 id="deemo">DEEMO — 5.0 content</h3>
       <p class="game-description">
         Original mobile DEEMO; excludes console and Reborn exclusives. 
         Ordinary numeric EXTRA charts are included. Symbolic and
@@ -89561,8 +89563,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g23" aria-labelledby="g23-heading">
-      <h3 id="g23-heading">DEEMO II — 4.1.8 content</h3>
+    <section class="game-section" id="g23" aria-labelledby="deemo-ii">
+      <h3 id="deemo-ii">DEEMO II — 4.1.8 content</h3>
       <p class="game-description">
         Mobile album catalogue. Paid, story and unlockable event content included. Repeated album
         listings count once. Counts follow the detailed current album rows; summary chart totals
@@ -91065,8 +91067,8 @@ z
         <a href="https://wikiwiki.jp/deemo_ii/%E3%83%AC%E3%83%99%E3%83%AB%E9%A0%86">wikiwiki.jp</a>
       </p>
     </section>
-    <section class="game-section" id="g29" aria-labelledby="g29-heading">
-      <h3 id="g29-heading">VOEZ — Current mobile catalogue</h3>
+    <section class="game-section" id="g29" aria-labelledby="voez">
+      <h3 id="voez">VOEZ — Current mobile catalogue</h3>
       <p class="game-description">
         Mobile VOEZ, excluding Switch exclusives and removed songs. The title-order list is
         preferred for the version-2.0 rating revisions; newer releases are checked against pack and
@@ -92642,8 +92644,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g22" aria-labelledby="g22-heading">
-      <h3 id="g22-heading">Muse Dash — 6.7.0</h3>
+    <section class="game-section" id="g22" aria-labelledby="muse-dash">
+      <h3 id="muse-dash">Muse Dash — 6.7.0</h3>
       <p class="game-description">
         Mobile catalogue, including paid and previously purchased limited packs. Symbolic DANMAKU
         ratings are excluded; ordinary numeric hidden ratings are included.
@@ -93933,8 +93935,8 @@ z
         >, <a href="https://wikiwiki.jp/musedash/3rd%20Avenue">wikiwiki.jp</a>
       </p>
     </section>
-    <section class="game-section" id="g25" aria-labelledby="g25-heading">
-      <h3 id="g25-heading">Paradigm: Reboot — 4.12.1 content</h3>
+    <section class="game-section" id="g25" aria-labelledby="paradigm-reboot">
+      <h3 id="paradigm-reboot">Paradigm: Reboot — 4.12.1 content</h3>
       <p class="game-description">
         Mobile catalogue. Public prober chart constants supplement all difficulty labels, including
         low levels and REBOOT. The stored level is used; empirical fitting_level is not used.
@@ -98137,8 +98139,8 @@ z
         <a href="https://github.com/IceLocke/paradigm-reboot-prober-go">github.com</a>
       </p>
     </section>
-    <section class="game-section" id="g28" aria-labelledby="g28-heading">
-      <h3 id="g28-heading">Rotaeno — Catalogue through 29 Oct 2026</h3>
+    <section class="game-section" id="g28" aria-labelledby="rotaeno">
+      <h3 id="rotaeno">Rotaeno — Catalogue through 29 Oct 2026</h3>
       <p class="game-description">
         Mobile catalogue. IV-alpha charts are included on the ordinary numeric scale. Constants come
         from the wiki table and song pages. Unknown remaining constants use displayed ratings.
@@ -102887,8 +102889,8 @@ z
         >, <a href="https://note.com/qui_ray/n/n42132cb047a9">note.com</a>
       </p>
     </section>
-    <section class="game-section" id="g31" aria-labelledby="g31-heading">
-      <h3 id="g31-heading">Orzmic — 3.17.0</h3>
+    <section class="game-section" id="g31" aria-labelledby="orzmic">
+      <h3 id="orzmic">Orzmic — 3.17.0</h3>
       <p class="game-description">
         Current chapters only, excluding the deleted-song and pre-version-3 chapter tables. Numeric
         extras on the ordinary scale are included.
@@ -106702,8 +106704,8 @@ z
         <a href="https://wikiwiki.jp/orzmic/Always%20Been%20You">wikiwiki.jp</a>
       </p>
     </section>
-    <section class="game-section" id="g60" aria-labelledby="g60-heading">
-      <h3 id="g60-heading">Berry Melody — 3.3.8</h3>
+    <section class="game-section" id="g60" aria-labelledby="berry-melody">
+      <h3 id="berry-melody">Berry Melody — 3.3.8</h3>
       <p class="game-description">
         Current mobile catalogue with published chart constants where available. Unknown constants
         use displayed levels. Tutorial, removed Milthm content, and DREAMY/FOOL special rating
@@ -111526,8 +111528,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g59" aria-labelledby="g59-heading">
-      <h3 id="g59-heading">polytone — 2.6.1</h3>
+    <section class="game-section" id="g59" aria-labelledby="polytone">
+      <h3 id="polytone">polytone — 2.6.1</h3>
       <p class="game-description">
         Mobile catalogue, including paid bundles. Numeric SPECIAL charts share the ordinary scale
         and are included. Displayed levels are used.
@@ -113204,8 +113206,8 @@ z
         <a href="https://apps.apple.com/us/app/polytone-rhythm-game/id1039246228">apps.apple.com</a>
       </p>
     </section>
-    <section class="game-section" id="g30" aria-labelledby="g30-heading">
-      <h3 id="g30-heading">TAKUMI³ — 7.7.4 catalogue</h3>
+    <section class="game-section" id="g30" aria-labelledby="takumi3">
+      <h3 id="takumi3">TAKUMI³ — 7.7.4 catalogue</h3>
       <p class="game-description">
         Curated official song catalogue. Decimal constants from the high and medium tables are used
         where published; lower levels without a published refinement retain displayed ratings.
@@ -117796,8 +117798,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="g57" aria-labelledby="g57-heading">
-      <h3 id="g57-heading">ChainBeeT — Catalogue · 30 October 2026</h3>
+    <section class="game-section" id="g57" aria-labelledby="chainbeet">
+      <h3 id="chainbeet">ChainBeeT — Catalogue · 30 October 2026</h3>
       <p class="game-description">
         Official fixed song catalogue, including hidden charts. CHAOS and CHAOS+ charts use the
         ordinary numeric level scale. Displayed levels are used.
@@ -119548,8 +119550,8 @@ z
         <a href="https://apps.apple.com/us/app/chainbeet-music-game/id1279207701">apps.apple.com</a>
       </p>
     </section>
-    <section class="game-section" id="g58" aria-labelledby="g58-heading">
-      <h3 id="g58-heading">DanceRail3 — 1.86</h3>
+    <section class="game-section" id="g58" aria-labelledby="dancerail3">
+      <h3 id="dancerail3">DanceRail3 — 1.86</h3>
       <p class="game-description">
         Regular playable catalogue. Each distinct chart is counted once at its numerical Tier. The
         game has no separate difficulty labels; all charts share one series. Temporary event-only
@@ -121078,8 +121080,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="game-g26" aria-labelledby="game-g26-heading">
-      <h3 id="game-g26-heading">KALPA — Mobile 4.x</h3>
+    <section class="game-section" id="game-g26" aria-labelledby="kalpa">
+      <h3 id="kalpa">KALPA — Mobile 4.x</h3>
       <p class="game-description">
         Mobile KALPA. Thumb and multi-finger modes have separate tables. The S prefix denotes the
         ordinary multi-finger scale and is removed from numeric values. 21+
@@ -121095,8 +121097,8 @@ z
           Multi-finger
         </button>
       </div>
-      <section class="mode-section" id="g26" aria-labelledby="g26-heading">
-        <h4 id="g26-heading">Thumb</h4>
+      <section class="mode-section" id="g26" aria-labelledby="kalpa-thumb">
+        <h4 id="kalpa-thumb">Thumb</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -121116,10 +121118,10 @@ z
                 <cc:Work>
                   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                   <dc:description
-                    >Every bin has width 1 and covers [n, n+1) for an integer n. Charts are grouped
-                    by the integer part of their difficulty rating, including empty bins. Each
-                    stacked segment shows its chart count. Both axes are linear; bars have no
-                    padding or outlines.</dc:description
+                    >Every bin has width 1 and covers [n, n+1) for an integer n. Charts are grouped by the
+                    integer part of their difficulty rating, including empty bins. Each stacked segment
+                    shows its chart count. Both axes are linear; bars have no padding or
+                    outlines.</dc:description
                   >
                   <dc:format>image/svg+xml</dc:format>
                   <dc:creator>
@@ -121132,9 +121134,9 @@ z
             </metadata>
             <title>KALPA — Thumb chart-count distribution</title>
             <desc>
-              Every bin has width 1 and covers [n, n+1) for an integer n. Charts are grouped by the
-              integer part of their difficulty rating, including empty bins. Each stacked segment
-              shows its chart count. Both axes are linear; bars have no padding or outlines.
+              Every bin has width 1 and covers [n, n+1) for an integer n. Charts are grouped by the integer
+              part of their difficulty rating, including empty bins. Each stacked segment shows its chart
+              count. Both axes are linear; bars have no padding or outlines.
             </desc>
             <defs>
               <style type="text/css">
@@ -121151,11 +121153,11 @@ z
               <g id="g26-patch_1">
                 <path
                   d="M 0 374.4 
-L 892.8 374.4 
-L 892.8 0 
-L 0 0 
-z
-"
+        L 892.8 374.4 
+        L 892.8 0 
+        L 0 0 
+        z
+        "
                   style="fill: #ffffff"
                 />
               </g>
@@ -121163,11 +121165,11 @@ z
                 <g id="g26-patch_2">
                   <path
                     d="M 80.352 310.752 
-L 876.7296 310.752 
-L 876.7296 71.136 
-L 80.352 71.136 
-z
-"
+        L 876.7296 310.752 
+        L 876.7296 71.136 
+        L 80.352 71.136 
+        z
+        "
                     style="fill: #ffffff"
                   />
                 </g>
@@ -121178,15 +121180,15 @@ z
                         <path
                           id="g26-me5ea1bf664"
                           d="M 0 0 
-L 0 3.5 
-"
+        L 0 3.5 
+        "
                           style="stroke: #506078; stroke-width: 0.8"
                         />
                       </defs>
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="100.26144"
+                          x="96.279552"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121201,11 +121203,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="100.26144"
+                        x="96.279552"
                         y="329.260301"
-                        transform="rotate(-0 100.26144 329.260301)"
+                        transform="rotate(-0 96.279552 329.260301)"
                       >
-                        2
+                        1
                       </text>
                     </g>
                   </g>
@@ -121214,7 +121216,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="140.08032"
+                          x="128.134656"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121229,11 +121231,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="140.08032"
+                        x="128.134656"
                         y="329.260301"
-                        transform="rotate(-0 140.08032 329.260301)"
+                        transform="rotate(-0 128.134656 329.260301)"
                       >
-                        3
+                        2
                       </text>
                     </g>
                   </g>
@@ -121242,7 +121244,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="179.8992"
+                          x="159.98976"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121257,11 +121259,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="179.8992"
+                        x="159.98976"
                         y="329.260301"
-                        transform="rotate(-0 179.8992 329.260301)"
+                        transform="rotate(-0 159.98976 329.260301)"
                       >
-                        4
+                        3
                       </text>
                     </g>
                   </g>
@@ -121270,7 +121272,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="219.71808"
+                          x="191.844864"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121285,11 +121287,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="219.71808"
+                        x="191.844864"
                         y="329.260301"
-                        transform="rotate(-0 219.71808 329.260301)"
+                        transform="rotate(-0 191.844864 329.260301)"
                       >
-                        5
+                        4
                       </text>
                     </g>
                   </g>
@@ -121298,7 +121300,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="259.53696"
+                          x="223.699968"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121313,11 +121315,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="259.53696"
+                        x="223.699968"
                         y="329.260301"
-                        transform="rotate(-0 259.53696 329.260301)"
+                        transform="rotate(-0 223.699968 329.260301)"
                       >
-                        6
+                        5
                       </text>
                     </g>
                   </g>
@@ -121326,7 +121328,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="299.35584"
+                          x="255.555072"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121341,11 +121343,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="299.35584"
+                        x="255.555072"
                         y="329.260301"
-                        transform="rotate(-0 299.35584 329.260301)"
+                        transform="rotate(-0 255.555072 329.260301)"
                       >
-                        7
+                        6
                       </text>
                     </g>
                   </g>
@@ -121354,7 +121356,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="339.17472"
+                          x="287.410176"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121369,11 +121371,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="339.17472"
+                        x="287.410176"
                         y="329.260301"
-                        transform="rotate(-0 339.17472 329.260301)"
+                        transform="rotate(-0 287.410176 329.260301)"
                       >
-                        8
+                        7
                       </text>
                     </g>
                   </g>
@@ -121382,7 +121384,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="378.9936"
+                          x="319.26528"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121397,11 +121399,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="378.9936"
+                        x="319.26528"
                         y="329.260301"
-                        transform="rotate(-0 378.9936 329.260301)"
+                        transform="rotate(-0 319.26528 329.260301)"
                       >
-                        9
+                        8
                       </text>
                     </g>
                   </g>
@@ -121410,7 +121412,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="418.81248"
+                          x="351.120384"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121425,11 +121427,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="418.81248"
+                        x="351.120384"
                         y="329.260301"
-                        transform="rotate(-0 418.81248 329.260301)"
+                        transform="rotate(-0 351.120384 329.260301)"
                       >
-                        10
+                        9
                       </text>
                     </g>
                   </g>
@@ -121438,7 +121440,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="458.63136"
+                          x="382.975488"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121453,11 +121455,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="458.63136"
+                        x="382.975488"
                         y="329.260301"
-                        transform="rotate(-0 458.63136 329.260301)"
+                        transform="rotate(-0 382.975488 329.260301)"
                       >
-                        11
+                        10
                       </text>
                     </g>
                   </g>
@@ -121466,7 +121468,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="498.45024"
+                          x="414.830592"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121481,11 +121483,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="498.45024"
+                        x="414.830592"
                         y="329.260301"
-                        transform="rotate(-0 498.45024 329.260301)"
+                        transform="rotate(-0 414.830592 329.260301)"
                       >
-                        12
+                        11
                       </text>
                     </g>
                   </g>
@@ -121494,7 +121496,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="538.26912"
+                          x="446.685696"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121509,11 +121511,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="538.26912"
+                        x="446.685696"
                         y="329.260301"
-                        transform="rotate(-0 538.26912 329.260301)"
+                        transform="rotate(-0 446.685696 329.260301)"
                       >
-                        13
+                        12
                       </text>
                     </g>
                   </g>
@@ -121522,7 +121524,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="578.088"
+                          x="478.5408"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121537,11 +121539,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="578.088"
+                        x="478.5408"
                         y="329.260301"
-                        transform="rotate(-0 578.088 329.260301)"
+                        transform="rotate(-0 478.5408 329.260301)"
                       >
-                        14
+                        13
                       </text>
                     </g>
                   </g>
@@ -121550,7 +121552,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="617.90688"
+                          x="510.395904"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121565,11 +121567,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="617.90688"
+                        x="510.395904"
                         y="329.260301"
-                        transform="rotate(-0 617.90688 329.260301)"
+                        transform="rotate(-0 510.395904 329.260301)"
                       >
-                        15
+                        14
                       </text>
                     </g>
                   </g>
@@ -121578,7 +121580,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="657.72576"
+                          x="542.251008"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121593,11 +121595,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="657.72576"
+                        x="542.251008"
                         y="329.260301"
-                        transform="rotate(-0 657.72576 329.260301)"
+                        transform="rotate(-0 542.251008 329.260301)"
                       >
-                        16
+                        15
                       </text>
                     </g>
                   </g>
@@ -121606,7 +121608,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="697.54464"
+                          x="574.106112"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121621,11 +121623,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="697.54464"
+                        x="574.106112"
                         y="329.260301"
-                        transform="rotate(-0 697.54464 329.260301)"
+                        transform="rotate(-0 574.106112 329.260301)"
                       >
-                        17
+                        16
                       </text>
                     </g>
                   </g>
@@ -121634,7 +121636,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="737.36352"
+                          x="605.961216"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121649,11 +121651,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="737.36352"
+                        x="605.961216"
                         y="329.260301"
-                        transform="rotate(-0 737.36352 329.260301)"
+                        transform="rotate(-0 605.961216 329.260301)"
                       >
-                        18
+                        17
                       </text>
                     </g>
                   </g>
@@ -121662,7 +121664,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="777.1824"
+                          x="637.81632"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121677,11 +121679,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="777.1824"
+                        x="637.81632"
                         y="329.260301"
-                        transform="rotate(-0 777.1824 329.260301)"
+                        transform="rotate(-0 637.81632 329.260301)"
                       >
-                        19
+                        18
                       </text>
                     </g>
                   </g>
@@ -121690,7 +121692,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="817.00128"
+                          x="669.671424"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121705,11 +121707,11 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="817.00128"
+                        x="669.671424"
                         y="329.260301"
-                        transform="rotate(-0 817.00128 329.260301)"
+                        transform="rotate(-0 669.671424 329.260301)"
                       >
-                        20
+                        19
                       </text>
                     </g>
                   </g>
@@ -121718,7 +121720,7 @@ L 0 3.5
                       <g>
                         <use
                           xlink:href="#g26-me5ea1bf664"
-                          x="856.82016"
+                          x="701.526528"
                           y="310.752"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
@@ -121733,15 +121735,155 @@ L 0 3.5
                           text-anchor: middle;
                           fill: #506078;
                         "
-                        x="856.82016"
+                        x="701.526528"
                         y="329.260301"
-                        transform="rotate(-0 856.82016 329.260301)"
+                        transform="rotate(-0 701.526528 329.260301)"
+                      >
+                        20
+                      </text>
+                    </g>
+                  </g>
+                  <g id="g26-xtick_21">
+                    <g id="g26-line2d_21">
+                      <g>
+                        <use
+                          xlink:href="#g26-me5ea1bf664"
+                          x="733.381632"
+                          y="310.752"
+                          style="fill: #506078; stroke: #506078; stroke-width: 0.8"
+                        />
+                      </g>
+                    </g>
+                    <g id="g26-text_21">
+                      <text
+                        style="
+                          font-size: 11px;
+                          font-family:
+                            &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                          text-anchor: middle;
+                          fill: #506078;
+                        "
+                        x="733.381632"
+                        y="329.260301"
+                        transform="rotate(-0 733.381632 329.260301)"
                       >
                         21
                       </text>
                     </g>
                   </g>
-                  <g id="g26-text_21">
+                  <g id="g26-xtick_22">
+                    <g id="g26-line2d_22">
+                      <g>
+                        <use
+                          xlink:href="#g26-me5ea1bf664"
+                          x="765.236736"
+                          y="310.752"
+                          style="fill: #506078; stroke: #506078; stroke-width: 0.8"
+                        />
+                      </g>
+                    </g>
+                    <g id="g26-text_22">
+                      <text
+                        style="
+                          font-size: 11px;
+                          font-family:
+                            &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                          text-anchor: middle;
+                          fill: #506078;
+                        "
+                        x="765.236736"
+                        y="329.260301"
+                        transform="rotate(-0 765.236736 329.260301)"
+                      >
+                        22
+                      </text>
+                    </g>
+                  </g>
+                  <g id="g26-xtick_23">
+                    <g id="g26-line2d_23">
+                      <g>
+                        <use
+                          xlink:href="#g26-me5ea1bf664"
+                          x="797.09184"
+                          y="310.752"
+                          style="fill: #506078; stroke: #506078; stroke-width: 0.8"
+                        />
+                      </g>
+                    </g>
+                    <g id="g26-text_23">
+                      <text
+                        style="
+                          font-size: 11px;
+                          font-family:
+                            &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                          text-anchor: middle;
+                          fill: #506078;
+                        "
+                        x="797.09184"
+                        y="329.260301"
+                        transform="rotate(-0 797.09184 329.260301)"
+                      >
+                        23
+                      </text>
+                    </g>
+                  </g>
+                  <g id="g26-xtick_24">
+                    <g id="g26-line2d_24">
+                      <g>
+                        <use
+                          xlink:href="#g26-me5ea1bf664"
+                          x="828.946944"
+                          y="310.752"
+                          style="fill: #506078; stroke: #506078; stroke-width: 0.8"
+                        />
+                      </g>
+                    </g>
+                    <g id="g26-text_24">
+                      <text
+                        style="
+                          font-size: 11px;
+                          font-family:
+                            &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                          text-anchor: middle;
+                          fill: #506078;
+                        "
+                        x="828.946944"
+                        y="329.260301"
+                        transform="rotate(-0 828.946944 329.260301)"
+                      >
+                        24
+                      </text>
+                    </g>
+                  </g>
+                  <g id="g26-xtick_25">
+                    <g id="g26-line2d_25">
+                      <g>
+                        <use
+                          xlink:href="#g26-me5ea1bf664"
+                          x="860.802048"
+                          y="310.752"
+                          style="fill: #506078; stroke: #506078; stroke-width: 0.8"
+                        />
+                      </g>
+                    </g>
+                    <g id="g26-text_25">
+                      <text
+                        style="
+                          font-size: 11px;
+                          font-family:
+                            &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                          text-anchor: middle;
+                          fill: #506078;
+                        "
+                        x="860.802048"
+                        y="329.260301"
+                        transform="rotate(-0 860.802048 329.260301)"
+                      >
+                        25
+                      </text>
+                    </g>
+                  </g>
+                  <g id="g26-text_26">
                     <text
                       style="
                         font-size: 11px;
@@ -121760,27 +121902,22 @@ L 0 3.5
                 </g>
                 <g id="g26-matplotlib.axis_2">
                   <g id="g26-ytick_1">
-                    <g id="g26-line2d_21">
+                    <g id="g26-line2d_26">
                       <path
                         d="M 80.352 310.752 
-L 876.7296 310.752 
-"
+        L 876.7296 310.752 
+        "
                         clip-path="url(#g26-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
-                    <g id="g26-line2d_22">
+                    <g id="g26-line2d_27">
                       <defs>
                         <path
                           id="g26-m314568df68"
                           d="M 0 0 
-L -3.5 0 
-"
+        L -3.5 0 
+        "
                           style="stroke: #506078; stroke-width: 0.8"
                         />
                       </defs>
@@ -121793,7 +121930,7 @@ L -3.5 0
                         />
                       </g>
                     </g>
-                    <g id="g26-text_22">
+                    <g id="g26-text_27">
                       <text
                         style="
                           font-size: 11px;
@@ -121811,21 +121948,16 @@ L -3.5 0
                     </g>
                   </g>
                   <g id="g26-ytick_2">
-                    <g id="g26-line2d_23">
+                    <g id="g26-line2d_28">
                       <path
                         d="M 80.352 269.047739 
-L 876.7296 269.047739 
-"
+        L 876.7296 269.047739 
+        "
                         clip-path="url(#g26-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
-                    <g id="g26-line2d_24">
+                    <g id="g26-line2d_29">
                       <g>
                         <use
                           xlink:href="#g26-m314568df68"
@@ -121835,7 +121967,7 @@ L 876.7296 269.047739
                         />
                       </g>
                     </g>
-                    <g id="g26-text_23">
+                    <g id="g26-text_28">
                       <text
                         style="
                           font-size: 11px;
@@ -121853,21 +121985,16 @@ L 876.7296 269.047739
                     </g>
                   </g>
                   <g id="g26-ytick_3">
-                    <g id="g26-line2d_25">
+                    <g id="g26-line2d_30">
                       <path
                         d="M 80.352 227.343479 
-L 876.7296 227.343479 
-"
+        L 876.7296 227.343479 
+        "
                         clip-path="url(#g26-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
-                    <g id="g26-line2d_26">
+                    <g id="g26-line2d_31">
                       <g>
                         <use
                           xlink:href="#g26-m314568df68"
@@ -121877,7 +122004,7 @@ L 876.7296 227.343479
                         />
                       </g>
                     </g>
-                    <g id="g26-text_24">
+                    <g id="g26-text_29">
                       <text
                         style="
                           font-size: 11px;
@@ -121895,21 +122022,16 @@ L 876.7296 227.343479
                     </g>
                   </g>
                   <g id="g26-ytick_4">
-                    <g id="g26-line2d_27">
+                    <g id="g26-line2d_32">
                       <path
                         d="M 80.352 185.639218 
-L 876.7296 185.639218 
-"
+        L 876.7296 185.639218 
+        "
                         clip-path="url(#g26-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
-                    <g id="g26-line2d_28">
+                    <g id="g26-line2d_33">
                       <g>
                         <use
                           xlink:href="#g26-m314568df68"
@@ -121919,7 +122041,7 @@ L 876.7296 185.639218
                         />
                       </g>
                     </g>
-                    <g id="g26-text_25">
+                    <g id="g26-text_30">
                       <text
                         style="
                           font-size: 11px;
@@ -121937,21 +122059,16 @@ L 876.7296 185.639218
                     </g>
                   </g>
                   <g id="g26-ytick_5">
-                    <g id="g26-line2d_29">
+                    <g id="g26-line2d_34">
                       <path
                         d="M 80.352 143.934957 
-L 876.7296 143.934957 
-"
+        L 876.7296 143.934957 
+        "
                         clip-path="url(#g26-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
-                    <g id="g26-line2d_30">
+                    <g id="g26-line2d_35">
                       <g>
                         <use
                           xlink:href="#g26-m314568df68"
@@ -121961,7 +122078,7 @@ L 876.7296 143.934957
                         />
                       </g>
                     </g>
-                    <g id="g26-text_26">
+                    <g id="g26-text_31">
                       <text
                         style="
                           font-size: 11px;
@@ -121979,21 +122096,16 @@ L 876.7296 143.934957
                     </g>
                   </g>
                   <g id="g26-ytick_6">
-                    <g id="g26-line2d_31">
+                    <g id="g26-line2d_36">
                       <path
                         d="M 80.352 102.230697 
-L 876.7296 102.230697 
-"
+        L 876.7296 102.230697 
+        "
                         clip-path="url(#g26-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
-                    <g id="g26-line2d_32">
+                    <g id="g26-line2d_37">
                       <g>
                         <use
                           xlink:href="#g26-m314568df68"
@@ -122003,7 +122115,7 @@ L 876.7296 102.230697
                         />
                       </g>
                     </g>
-                    <g id="g26-text_27">
+                    <g id="g26-text_32">
                       <text
                         style="
                           font-size: 11px;
@@ -122020,7 +122132,7 @@ L 876.7296 102.230697
                       </text>
                     </g>
                   </g>
-                  <g id="g26-text_28">
+                  <g id="g26-text_33">
                     <text
                       style="
                         font-size: 11px;
@@ -122040,8 +122152,8 @@ L 876.7296 102.230697
                 <g id="g26-patch_3">
                   <path
                     d="M 80.352 310.752 
-L 80.352 71.136 
-"
+        L 80.352 71.136 
+        "
                     style="
                       fill: none;
                       stroke: #afbbcb;
@@ -122054,8 +122166,8 @@ L 80.352 71.136
                 <g id="g26-patch_4">
                   <path
                     d="M 80.352 310.752 
-L 876.7296 310.752 
-"
+        L 876.7296 310.752 
+        "
                     style="
                       fill: none;
                       stroke: #afbbcb;
@@ -122068,12 +122180,12 @@ L 876.7296 310.752
                 <g id="g26-bin-0-label-0">
                   <title>NORMAL: 20 charts&#10;Source rating: 2&#10;Source bin: [2, 3); width 1&#10;Height: 20 charts</title>
                   <path
-                    d="M 80.352 310.752 
-L 120.17088 310.752 
-L 120.17088 277.388591 
-L 80.352 277.388591 
-z
-"
+                    d="M 112.207104 310.752 
+        L 144.062208 310.752 
+        L 144.062208 277.388591 
+        L 112.207104 277.388591 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #70b69d"
                   />
@@ -122081,12 +122193,12 @@ z
                 <g id="g26-bin-1-label-0">
                   <title>NORMAL: 82 charts&#10;Source rating: 3&#10;Source bin: [3, 4); width 1&#10;Height: 82 charts</title>
                   <path
-                    d="M 120.17088 310.752 
-L 159.98976 310.752 
-L 159.98976 173.962025 
-L 120.17088 173.962025 
-z
-"
+                    d="M 144.062208 310.752 
+        L 175.917312 310.752 
+        L 175.917312 173.962025 
+        L 144.062208 173.962025 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #70b69d"
                   />
@@ -122094,12 +122206,12 @@ z
                 <g id="g26-bin-2-label-0">
                   <title>NORMAL: 132 charts&#10;Source rating: 4&#10;Source bin: [4, 5); width 1&#10;Height: 132 charts</title>
                   <path
-                    d="M 159.98976 310.752 
-L 199.80864 310.752 
-L 199.80864 90.553504 
-L 159.98976 90.553504 
-z
-"
+                    d="M 175.917312 310.752 
+        L 207.772416 310.752 
+        L 207.772416 90.553504 
+        L 175.917312 90.553504 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #70b69d"
                   />
@@ -122107,12 +122219,12 @@ z
                 <g id="g26-bin-3-label-0">
                   <title>NORMAL: 91 charts&#10;Source rating: 5&#10;Source bin: [5, 6); width 1&#10;Height: 91 charts</title>
                   <path
-                    d="M 199.80864 310.752 
-L 239.62752 310.752 
-L 239.62752 158.948491 
-L 199.80864 158.948491 
-z
-"
+                    d="M 207.772416 310.752 
+        L 239.62752 310.752 
+        L 239.62752 158.948491 
+        L 207.772416 158.948491 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #70b69d"
                   />
@@ -122121,11 +122233,11 @@ z
                   <title>NORMAL: 57 charts&#10;Source rating: 6&#10;Source bin: [6, 7); width 1&#10;Height: 57 charts</title>
                   <path
                     d="M 239.62752 310.752 
-L 279.4464 310.752 
-L 279.4464 215.666286 
-L 239.62752 215.666286 
-z
-"
+        L 271.482624 310.752 
+        L 271.482624 215.666286 
+        L 239.62752 215.666286 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #70b69d"
                   />
@@ -122133,12 +122245,12 @@ z
                 <g id="g26-bin-5-label-0">
                   <title>NORMAL: 29 charts&#10;Source rating: 7&#10;Source bin: [7, 8); width 1&#10;Height: 29 charts</title>
                   <path
-                    d="M 279.4464 310.752 
-L 319.26528 310.752 
-L 319.26528 262.375058 
-L 279.4464 262.375058 
-z
-"
+                    d="M 271.482624 310.752 
+        L 303.337728 310.752 
+        L 303.337728 262.375058 
+        L 271.482624 262.375058 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #70b69d"
                   />
@@ -122146,12 +122258,12 @@ z
                 <g id="g26-bin-6-label-0">
                   <title>NORMAL: 4 charts&#10;Source rating: 8&#10;Source bin: [8, 9); width 1&#10;Height: 4 charts</title>
                   <path
-                    d="M 319.26528 310.752 
-L 359.08416 310.752 
-L 359.08416 304.079318 
-L 319.26528 304.079318 
-z
-"
+                    d="M 303.337728 310.752 
+        L 335.192832 310.752 
+        L 335.192832 304.079318 
+        L 303.337728 304.079318 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #70b69d"
                   />
@@ -122159,12 +122271,12 @@ z
                 <g id="g26-bin-1-label-1">
                   <title>HARD: 1 charts&#10;Source rating: 3&#10;Source bin: [3, 4); width 1&#10;Height: 1 charts</title>
                   <path
-                    d="M 120.17088 173.962025 
-L 159.98976 173.962025 
-L 159.98976 172.293855 
-L 120.17088 172.293855 
-z
-"
+                    d="M 144.062208 173.962025 
+        L 175.917312 173.962025 
+        L 175.917312 172.293855 
+        L 144.062208 172.293855 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122172,12 +122284,12 @@ z
                 <g id="g26-bin-2-label-1">
                   <title>HARD: 1 charts&#10;Source rating: 4&#10;Source bin: [4, 5); width 1&#10;Height: 1 charts</title>
                   <path
-                    d="M 159.98976 90.553504 
-L 199.80864 90.553504 
-L 199.80864 88.885333 
-L 159.98976 88.885333 
-z
-"
+                    d="M 175.917312 90.553504 
+        L 207.772416 90.553504 
+        L 207.772416 88.885333 
+        L 175.917312 88.885333 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122185,12 +122297,12 @@ z
                 <g id="g26-bin-3-label-1">
                   <title>HARD: 3 charts&#10;Source rating: 5&#10;Source bin: [5, 6); width 1&#10;Height: 3 charts</title>
                   <path
-                    d="M 199.80864 158.948491 
-L 239.62752 158.948491 
-L 239.62752 153.94398 
-L 199.80864 153.94398 
-z
-"
+                    d="M 207.772416 158.948491 
+        L 239.62752 158.948491 
+        L 239.62752 153.94398 
+        L 207.772416 153.94398 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122199,11 +122311,11 @@ z
                   <title>HARD: 17 charts&#10;Source rating: 6&#10;Source bin: [6, 7); width 1&#10;Height: 17 charts</title>
                   <path
                     d="M 239.62752 215.666286 
-L 279.4464 215.666286 
-L 279.4464 187.307388 
-L 239.62752 187.307388 
-z
-"
+        L 271.482624 215.666286 
+        L 271.482624 187.307388 
+        L 239.62752 187.307388 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122211,12 +122323,12 @@ z
                 <g id="g26-bin-5-label-1">
                   <title>HARD: 55 charts&#10;Source rating: 7&#10;Source bin: [7, 8); width 1&#10;Height: 55 charts</title>
                   <path
-                    d="M 279.4464 262.375058 
-L 319.26528 262.375058 
-L 319.26528 170.625684 
-L 279.4464 170.625684 
-z
-"
+                    d="M 271.482624 262.375058 
+        L 303.337728 262.375058 
+        L 303.337728 170.625684 
+        L 271.482624 170.625684 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122224,12 +122336,12 @@ z
                 <g id="g26-bin-6-label-1">
                   <title>HARD: 72 charts&#10;Source rating: 8&#10;Source bin: [8, 9); width 1&#10;Height: 72 charts</title>
                   <path
-                    d="M 319.26528 304.079318 
-L 359.08416 304.079318 
-L 359.08416 183.971048 
-L 319.26528 183.971048 
-z
-"
+                    d="M 303.337728 304.079318 
+        L 335.192832 304.079318 
+        L 335.192832 183.971048 
+        L 303.337728 183.971048 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122237,12 +122349,12 @@ z
                 <g id="g26-bin-7-label-1">
                   <title>HARD: 98 charts&#10;Source rating: 9&#10;Source bin: [9, 10); width 1&#10;Height: 98 charts</title>
                   <path
-                    d="M 359.08416 310.752 
-L 398.90304 310.752 
-L 398.90304 147.271298 
-L 359.08416 147.271298 
-z
-"
+                    d="M 335.192832 310.752 
+        L 367.047936 310.752 
+        L 367.047936 147.271298 
+        L 335.192832 147.271298 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122250,12 +122362,12 @@ z
                 <g id="g26-bin-8-label-1">
                   <title>HARD: 64 charts&#10;Source rating: 10&#10;Source bin: [10, 11); width 1&#10;Height: 64 charts</title>
                   <path
-                    d="M 398.90304 310.752 
-L 438.72192 310.752 
-L 438.72192 203.989093 
-L 398.90304 203.989093 
-z
-"
+                    d="M 367.047936 310.752 
+        L 398.90304 310.752 
+        L 398.90304 203.989093 
+        L 367.047936 203.989093 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122263,12 +122375,12 @@ z
                 <g id="g26-bin-9-label-1">
                   <title>HARD: 51 charts&#10;Source rating: 11&#10;Source bin: [11, 12); width 1&#10;Height: 51 charts</title>
                   <path
-                    d="M 438.72192 310.752 
-L 478.5408 310.752 
-L 478.5408 225.675308 
-L 438.72192 225.675308 
-z
-"
+                    d="M 398.90304 310.752 
+        L 430.758144 310.752 
+        L 430.758144 225.675308 
+        L 398.90304 225.675308 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122276,12 +122388,12 @@ z
                 <g id="g26-bin-10-label-1">
                   <title>HARD: 32 charts&#10;Source rating: 12&#10;Source bin: [12, 13); width 1&#10;Height: 32 charts</title>
                   <path
-                    d="M 478.5408 310.752 
-L 518.35968 310.752 
-L 518.35968 257.370546 
-L 478.5408 257.370546 
-z
-"
+                    d="M 430.758144 310.752 
+        L 462.613248 310.752 
+        L 462.613248 257.370546 
+        L 430.758144 257.370546 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122289,12 +122401,12 @@ z
                 <g id="g26-bin-11-label-1">
                   <title>HARD: 18 charts&#10;Source rating: 13&#10;Source bin: [13, 14); width 1&#10;Height: 18 charts</title>
                   <path
-                    d="M 518.35968 310.752 
-L 558.17856 310.752 
-L 558.17856 280.724932 
-L 518.35968 280.724932 
-z
-"
+                    d="M 462.613248 310.752 
+        L 494.468352 310.752 
+        L 494.468352 280.724932 
+        L 462.613248 280.724932 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122302,12 +122414,12 @@ z
                 <g id="g26-bin-12-label-1">
                   <title>HARD: 4 charts&#10;Source rating: 14&#10;Source bin: [14, 15); width 1&#10;Height: 4 charts</title>
                   <path
-                    d="M 558.17856 310.752 
-L 597.99744 310.752 
-L 597.99744 304.079318 
-L 558.17856 304.079318 
-z
-"
+                    d="M 494.468352 310.752 
+        L 526.323456 310.752 
+        L 526.323456 304.079318 
+        L 494.468352 304.079318 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122315,12 +122427,12 @@ z
                 <g id="g26-bin-13-label-1">
                   <title>HARD: 1 charts&#10;Source rating: 15&#10;Source bin: [15, 16); width 1&#10;Height: 1 charts</title>
                   <path
-                    d="M 597.99744 310.752 
-L 637.81632 310.752 
-L 637.81632 309.08383 
-L 597.99744 309.08383 
-z
-"
+                    d="M 526.323456 310.752 
+        L 558.17856 310.752 
+        L 558.17856 309.08383 
+        L 526.323456 309.08383 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #459eb9"
                   />
@@ -122329,11 +122441,11 @@ z
                   <title>HARD+: 1 charts&#10;Source rating: 6&#10;Source bin: [6, 7); width 1&#10;Height: 1 charts</title>
                   <path
                     d="M 239.62752 187.307388 
-L 279.4464 187.307388 
-L 279.4464 185.639218 
-L 239.62752 185.639218 
-z
-"
+        L 271.482624 187.307388 
+        L 271.482624 185.639218 
+        L 239.62752 185.639218 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122341,12 +122453,12 @@ z
                 <g id="g26-bin-7-label-2">
                   <title>HARD+: 2 charts&#10;Source rating: 9&#10;Source bin: [9, 10); width 1&#10;Height: 2 charts</title>
                   <path
-                    d="M 359.08416 147.271298 
-L 398.90304 147.271298 
-L 398.90304 143.934957 
-L 359.08416 143.934957 
-z
-"
+                    d="M 335.192832 147.271298 
+        L 367.047936 147.271298 
+        L 367.047936 143.934957 
+        L 335.192832 143.934957 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122354,12 +122466,12 @@ z
                 <g id="g26-bin-8-label-2">
                   <title>HARD+: 5 charts&#10;Source rating: 10&#10;Source bin: [10, 11); width 1&#10;Height: 5 charts</title>
                   <path
-                    d="M 398.90304 203.989093 
-L 438.72192 203.989093 
-L 438.72192 195.648241 
-L 398.90304 195.648241 
-z
-"
+                    d="M 367.047936 203.989093 
+        L 398.90304 203.989093 
+        L 398.90304 195.648241 
+        L 367.047936 195.648241 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122367,12 +122479,12 @@ z
                 <g id="g26-bin-9-label-2">
                   <title>HARD+: 5 charts&#10;Source rating: 11&#10;Source bin: [11, 12); width 1&#10;Height: 5 charts</title>
                   <path
-                    d="M 438.72192 225.675308 
-L 478.5408 225.675308 
-L 478.5408 217.334456 
-L 438.72192 217.334456 
-z
-"
+                    d="M 398.90304 225.675308 
+        L 430.758144 225.675308 
+        L 430.758144 217.334456 
+        L 398.90304 217.334456 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122380,12 +122492,12 @@ z
                 <g id="g26-bin-10-label-2">
                   <title>HARD+: 15 charts&#10;Source rating: 12&#10;Source bin: [12, 13); width 1&#10;Height: 15 charts</title>
                   <path
-                    d="M 478.5408 257.370546 
-L 518.35968 257.370546 
-L 518.35968 232.34799 
-L 478.5408 232.34799 
-z
-"
+                    d="M 430.758144 257.370546 
+        L 462.613248 257.370546 
+        L 462.613248 232.34799 
+        L 430.758144 232.34799 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122393,12 +122505,12 @@ z
                 <g id="g26-bin-11-label-2">
                   <title>HARD+: 32 charts&#10;Source rating: 13&#10;Source bin: [13, 14); width 1&#10;Height: 32 charts</title>
                   <path
-                    d="M 518.35968 280.724932 
-L 558.17856 280.724932 
-L 558.17856 227.343479 
-L 518.35968 227.343479 
-z
-"
+                    d="M 462.613248 280.724932 
+        L 494.468352 280.724932 
+        L 494.468352 227.343479 
+        L 462.613248 227.343479 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122406,12 +122518,12 @@ z
                 <g id="g26-bin-12-label-2">
                   <title>HARD+: 42 charts&#10;Source rating: 14&#10;Source bin: [14, 15); width 1&#10;Height: 42 charts</title>
                   <path
-                    d="M 558.17856 304.079318 
-L 597.99744 304.079318 
-L 597.99744 234.01616 
-L 558.17856 234.01616 
-z
-"
+                    d="M 494.468352 304.079318 
+        L 526.323456 304.079318 
+        L 526.323456 234.01616 
+        L 494.468352 234.01616 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122419,12 +122531,12 @@ z
                 <g id="g26-bin-13-label-2">
                   <title>HARD+: 65 charts&#10;Source rating: 15&#10;Source bin: [15, 16); width 1&#10;Height: 65 charts</title>
                   <path
-                    d="M 597.99744 309.08383 
-L 637.81632 309.08383 
-L 637.81632 200.652752 
-L 597.99744 200.652752 
-z
-"
+                    d="M 526.323456 309.08383 
+        L 558.17856 309.08383 
+        L 558.17856 200.652752 
+        L 526.323456 200.652752 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122432,12 +122544,12 @@ z
                 <g id="g26-bin-14-label-2">
                   <title>HARD+: 120 charts&#10;Source rating: 16&#10;Source bin: [16, 17); width 1&#10;Height: 120 charts</title>
                   <path
-                    d="M 637.81632 310.752 
-L 677.6352 310.752 
-L 677.6352 110.571549 
-L 637.81632 110.571549 
-z
-"
+                    d="M 558.17856 310.752 
+        L 590.033664 310.752 
+        L 590.033664 110.571549 
+        L 558.17856 110.571549 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122445,12 +122557,12 @@ z
                 <g id="g26-bin-15-label-2">
                   <title>HARD+: 94 charts&#10;Source rating: 17&#10;Source bin: [17, 18); width 1&#10;Height: 94 charts</title>
                   <path
-                    d="M 677.6352 310.752 
-L 717.45408 310.752 
-L 717.45408 153.94398 
-L 677.6352 153.94398 
-z
-"
+                    d="M 590.033664 310.752 
+        L 621.888768 310.752 
+        L 621.888768 153.94398 
+        L 590.033664 153.94398 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122458,12 +122570,12 @@ z
                 <g id="g26-bin-16-label-2">
                   <title>HARD+: 33 charts&#10;Source rating: 18&#10;Source bin: [18, 19); width 1&#10;Height: 33 charts</title>
                   <path
-                    d="M 717.45408 310.752 
-L 757.27296 310.752 
-L 757.27296 255.702376 
-L 717.45408 255.702376 
-z
-"
+                    d="M 621.888768 310.752 
+        L 653.743872 310.752 
+        L 653.743872 255.702376 
+        L 621.888768 255.702376 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122471,12 +122583,12 @@ z
                 <g id="g26-bin-17-label-2">
                   <title>HARD+: 9 charts&#10;Source rating: 19&#10;Source bin: [19, 20); width 1&#10;Height: 9 charts</title>
                   <path
-                    d="M 757.27296 310.752 
-L 797.09184 310.752 
-L 797.09184 295.738466 
-L 757.27296 295.738466 
-z
-"
+                    d="M 653.743872 310.752 
+        L 685.598976 310.752 
+        L 685.598976 295.738466 
+        L 653.743872 295.738466 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #bb7da8"
                   />
@@ -122484,12 +122596,12 @@ z
                 <g id="g26-bin-14-label-3">
                   <title>ABYSS: 8 charts&#10;Source rating: 16&#10;Source bin: [16, 17); width 1&#10;Height: 8 charts</title>
                   <path
-                    d="M 637.81632 110.571549 
-L 677.6352 110.571549 
-L 677.6352 97.226185 
-L 637.81632 97.226185 
-z
-"
+                    d="M 558.17856 110.571549 
+        L 590.033664 110.571549 
+        L 590.033664 97.226185 
+        L 558.17856 97.226185 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #8c3aa2"
                   />
@@ -122497,12 +122609,12 @@ z
                 <g id="g26-bin-15-label-3">
                   <title>ABYSS: 23 charts&#10;Source rating: 17&#10;Source bin: [17, 18); width 1&#10;Height: 23 charts</title>
                   <path
-                    d="M 677.6352 153.94398 
-L 717.45408 153.94398 
-L 717.45408 115.57606 
-L 677.6352 115.57606 
-z
-"
+                    d="M 590.033664 153.94398 
+        L 621.888768 153.94398 
+        L 621.888768 115.57606 
+        L 590.033664 115.57606 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #8c3aa2"
                   />
@@ -122510,12 +122622,12 @@ z
                 <g id="g26-bin-16-label-3">
                   <title>ABYSS: 28 charts&#10;Source rating: 18&#10;Source bin: [18, 19); width 1&#10;Height: 28 charts</title>
                   <path
-                    d="M 717.45408 255.702376 
-L 757.27296 255.702376 
-L 757.27296 208.993604 
-L 717.45408 208.993604 
-z
-"
+                    d="M 621.888768 255.702376 
+        L 653.743872 255.702376 
+        L 653.743872 208.993604 
+        L 621.888768 208.993604 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #8c3aa2"
                   />
@@ -122523,12 +122635,12 @@ z
                 <g id="g26-bin-17-label-3">
                   <title>ABYSS: 51 charts&#10;Source rating: 19&#10;Source bin: [19, 20); width 1&#10;Height: 51 charts</title>
                   <path
-                    d="M 757.27296 295.738466 
-L 797.09184 295.738466 
-L 797.09184 210.661774 
-L 757.27296 210.661774 
-z
-"
+                    d="M 653.743872 295.738466 
+        L 685.598976 295.738466 
+        L 685.598976 210.661774 
+        L 653.743872 210.661774 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #8c3aa2"
                   />
@@ -122536,12 +122648,12 @@ z
                 <g id="g26-bin-18-label-3">
                   <title>ABYSS: 80 charts&#10;Source rating: 20&#10;Source bin: [20, 21); width 1&#10;Height: 80 charts</title>
                   <path
-                    d="M 797.09184 310.752 
-L 836.91072 310.752 
-L 836.91072 177.298366 
-L 797.09184 177.298366 
-z
-"
+                    d="M 685.598976 310.752 
+        L 717.45408 310.752 
+        L 717.45408 177.298366 
+        L 685.598976 177.298366 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #8c3aa2"
                   />
@@ -122549,24 +122661,23 @@ z
                 <g id="g26-bin-19-label-3">
                   <title>ABYSS: 46 charts&#10;Source rating: 21&#10;Source bin: [21, 22); width 1&#10;Height: 46 charts</title>
                   <path
-                    d="M 836.91072 310.752 
-L 876.7296 310.752 
-L 876.7296 234.01616 
-L 836.91072 234.01616 
-z
-"
+                    d="M 717.45408 310.752 
+        L 749.309184 310.752 
+        L 749.309184 234.01616 
+        L 717.45408 234.01616 
+        z
+        "
                     clip-path="url(#g26-p0a6bd265db)"
                     style="fill: #8c3aa2"
                   />
                 </g>
               </g>
-              <g id="g26-text_29">
+              <g id="g26-text_34">
                 <text
                   style="
                     font-weight: 700;
                     font-size: 17px;
-                    font-family:
-                      &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                    font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                     text-anchor: start;
                     fill: #182238;
                   "
@@ -122577,12 +122688,11 @@ z
                   KALPA — Thumb
                 </text>
               </g>
-              <g id="g26-text_30">
+              <g id="g26-text_35">
                 <text
                   style="
                     font-size: 10.5px;
-                    font-family:
-                      &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                    font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                     text-anchor: start;
                     fill: #506078;
                   "
@@ -122597,20 +122707,19 @@ z
                 <g id="g26-patch_5">
                   <path
                     d="M 83.5452 63.7407 
-L 96.8452 63.7407 
-L 96.8452 56.4732 
-L 83.5452 56.4732 
-z
-"
+        L 96.8452 63.7407 
+        L 96.8452 56.4732 
+        L 83.5452 56.4732 
+        z
+        "
                     style="fill: #70b69d"
                   />
                 </g>
-                <g id="g26-text_31">
+                <g id="g26-text_36">
                   <text
                     style="
                       font-size: 9.5px;
-                      font-family:
-                        &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                      font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                       text-anchor: start;
                       fill: #182238;
                     "
@@ -122624,20 +122733,19 @@ z
                 <g id="g26-patch_6">
                   <path
                     d="M 154.113872 63.7407 
-L 167.413872 63.7407 
-L 167.413872 56.4732 
-L 154.113872 56.4732 
-z
-"
+        L 167.413872 63.7407 
+        L 167.413872 56.4732 
+        L 154.113872 56.4732 
+        z
+        "
                     style="fill: #459eb9"
                   />
                 </g>
-                <g id="g26-text_32">
+                <g id="g26-text_37">
                   <text
                     style="
                       font-size: 9.5px;
-                      font-family:
-                        &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                      font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                       text-anchor: start;
                       fill: #182238;
                     "
@@ -122651,20 +122759,19 @@ z
                 <g id="g26-patch_7">
                   <path
                     d="M 210.958013 63.7407 
-L 224.258013 63.7407 
-L 224.258013 56.4732 
-L 210.958013 56.4732 
-z
-"
+        L 224.258013 63.7407 
+        L 224.258013 56.4732 
+        L 210.958013 56.4732 
+        z
+        "
                     style="fill: #bb7da8"
                   />
                 </g>
-                <g id="g26-text_33">
+                <g id="g26-text_38">
                   <text
                     style="
                       font-size: 9.5px;
-                      font-family:
-                        &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                      font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                       text-anchor: start;
                       fill: #182238;
                     "
@@ -122678,20 +122785,19 @@ z
                 <g id="g26-patch_8">
                   <path
                     d="M 273.350747 63.7407 
-L 286.650747 63.7407 
-L 286.650747 56.4732 
-L 273.350747 56.4732 
-z
-"
+        L 286.650747 63.7407 
+        L 286.650747 56.4732 
+        L 273.350747 56.4732 
+        z
+        "
                     style="fill: #8c3aa2"
                   />
                 </g>
-                <g id="g26-text_34">
+                <g id="g26-text_39">
                   <text
                     style="
                       font-size: 9.5px;
-                      font-family:
-                        &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                      font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                       text-anchor: start;
                       fill: #182238;
                     "
@@ -122899,8 +123005,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g27" aria-labelledby="g27-heading" hidden>
-        <h4 id="g27-heading">Multi-finger</h4>
+      <section class="mode-section" id="g27" aria-labelledby="kalpa-multi-finger" hidden>
+        <h4 id="kalpa-multi-finger">Multi-finger</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -122920,10 +123026,10 @@ z
                 <cc:Work>
                   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                   <dc:description
-                    >Every bin has width 1 and covers [n, n+1) for an integer n. Charts are grouped
-                    by the integer part of their difficulty rating, including empty bins. Each
-                    stacked segment shows its chart count. Both axes are linear; bars have no
-                    padding or outlines.</dc:description
+                    >Every bin has width 1 and covers [n, n+1) for an integer n. Charts are grouped by the
+                    integer part of their difficulty rating, including empty bins. Each stacked segment
+                    shows its chart count. Both axes are linear; bars have no padding or
+                    outlines.</dc:description
                   >
                   <dc:format>image/svg+xml</dc:format>
                   <dc:creator>
@@ -122936,9 +123042,9 @@ z
             </metadata>
             <title>KALPA — Multi-finger chart-count distribution</title>
             <desc>
-              Every bin has width 1 and covers [n, n+1) for an integer n. Charts are grouped by the
-              integer part of their difficulty rating, including empty bins. Each stacked segment
-              shows its chart count. Both axes are linear; bars have no padding or outlines.
+              Every bin has width 1 and covers [n, n+1) for an integer n. Charts are grouped by the integer
+              part of their difficulty rating, including empty bins. Each stacked segment shows its chart
+              count. Both axes are linear; bars have no padding or outlines.
             </desc>
             <defs>
               <style type="text/css">
@@ -122955,11 +123061,11 @@ z
               <g id="g27-patch_1">
                 <path
                   d="M 0 374.4 
-L 892.8 374.4 
-L 892.8 0 
-L 0 0 
-z
-"
+        L 892.8 374.4 
+        L 892.8 0 
+        L 0 0 
+        z
+        "
                   style="fill: #ffffff"
                 />
               </g>
@@ -122967,11 +123073,11 @@ z
                 <g id="g27-patch_2">
                   <path
                     d="M 80.352 310.752 
-L 876.7296 310.752 
-L 876.7296 71.136 
-L 80.352 71.136 
-z
-"
+        L 876.7296 310.752 
+        L 876.7296 71.136 
+        L 80.352 71.136 
+        z
+        "
                     style="fill: #ffffff"
                   />
                 </g>
@@ -122982,8 +123088,8 @@ z
                         <path
                           id="g27-me5ea1bf664"
                           d="M 0 0 
-L 0 3.5 
-"
+        L 0 3.5 
+        "
                           style="stroke: #506078; stroke-width: 0.8"
                         />
                       </defs>
@@ -123707,15 +123813,10 @@ L 0 3.5
                     <g id="g27-line2d_26">
                       <path
                         d="M 80.352 310.752 
-L 876.7296 310.752 
-"
+        L 876.7296 310.752 
+        "
                         clip-path="url(#g27-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
                     <g id="g27-line2d_27">
@@ -123723,8 +123824,8 @@ L 876.7296 310.752
                         <path
                           id="g27-m314568df68"
                           d="M 0 0 
-L -3.5 0 
-"
+        L -3.5 0 
+        "
                           style="stroke: #506078; stroke-width: 0.8"
                         />
                       </defs>
@@ -123757,16 +123858,11 @@ L -3.5 0
                   <g id="g27-ytick_2">
                     <g id="g27-line2d_28">
                       <path
-                        d="M 80.352 267.754584 
-L 876.7296 267.754584 
-"
+                        d="M 80.352 269.047739 
+        L 876.7296 269.047739 
+        "
                         clip-path="url(#g27-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
                     <g id="g27-line2d_29">
@@ -123774,7 +123870,7 @@ L 876.7296 267.754584
                         <use
                           xlink:href="#g27-m314568df68"
                           x="80.352"
-                          y="267.754584"
+                          y="269.047739"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
                       </g>
@@ -123789,8 +123885,8 @@ L 876.7296 267.754584
                           fill: #506078;
                         "
                         x="69.852"
-                        y="271.758734"
-                        transform="rotate(-0 69.852 271.758734)"
+                        y="273.05189"
+                        transform="rotate(-0 69.852 273.05189)"
                       >
                         25
                       </text>
@@ -123799,16 +123895,11 @@ L 876.7296 267.754584
                   <g id="g27-ytick_3">
                     <g id="g27-line2d_30">
                       <path
-                        d="M 80.352 224.757168 
-L 876.7296 224.757168 
-"
+                        d="M 80.352 227.343479 
+        L 876.7296 227.343479 
+        "
                         clip-path="url(#g27-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
                     <g id="g27-line2d_31">
@@ -123816,7 +123907,7 @@ L 876.7296 224.757168
                         <use
                           xlink:href="#g27-m314568df68"
                           x="80.352"
-                          y="224.757168"
+                          y="227.343479"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
                       </g>
@@ -123831,8 +123922,8 @@ L 876.7296 224.757168
                           fill: #506078;
                         "
                         x="69.852"
-                        y="228.761318"
-                        transform="rotate(-0 69.852 228.761318)"
+                        y="231.347629"
+                        transform="rotate(-0 69.852 231.347629)"
                       >
                         50
                       </text>
@@ -123841,16 +123932,11 @@ L 876.7296 224.757168
                   <g id="g27-ytick_4">
                     <g id="g27-line2d_32">
                       <path
-                        d="M 80.352 181.759752 
-L 876.7296 181.759752 
-"
+                        d="M 80.352 185.639218 
+        L 876.7296 185.639218 
+        "
                         clip-path="url(#g27-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
                     <g id="g27-line2d_33">
@@ -123858,7 +123944,7 @@ L 876.7296 181.759752
                         <use
                           xlink:href="#g27-m314568df68"
                           x="80.352"
-                          y="181.759752"
+                          y="185.639218"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
                       </g>
@@ -123873,8 +123959,8 @@ L 876.7296 181.759752
                           fill: #506078;
                         "
                         x="69.852"
-                        y="185.763902"
-                        transform="rotate(-0 69.852 185.763902)"
+                        y="189.643368"
+                        transform="rotate(-0 69.852 189.643368)"
                       >
                         75
                       </text>
@@ -123883,16 +123969,11 @@ L 876.7296 181.759752
                   <g id="g27-ytick_5">
                     <g id="g27-line2d_34">
                       <path
-                        d="M 80.352 138.762336 
-L 876.7296 138.762336 
-"
+                        d="M 80.352 143.934957 
+        L 876.7296 143.934957 
+        "
                         clip-path="url(#g27-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
                     <g id="g27-line2d_35">
@@ -123900,7 +123981,7 @@ L 876.7296 138.762336
                         <use
                           xlink:href="#g27-m314568df68"
                           x="80.352"
-                          y="138.762336"
+                          y="143.934957"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
                       </g>
@@ -123915,8 +123996,8 @@ L 876.7296 138.762336
                           fill: #506078;
                         "
                         x="69.852"
-                        y="142.766486"
-                        transform="rotate(-0 69.852 142.766486)"
+                        y="147.939108"
+                        transform="rotate(-0 69.852 147.939108)"
                       >
                         100
                       </text>
@@ -123925,16 +124006,11 @@ L 876.7296 138.762336
                   <g id="g27-ytick_6">
                     <g id="g27-line2d_36">
                       <path
-                        d="M 80.352 95.76492 
-L 876.7296 95.76492 
-"
+                        d="M 80.352 102.230697 
+        L 876.7296 102.230697 
+        "
                         clip-path="url(#g27-p0a6bd265db)"
-                        style="
-                          fill: none;
-                          stroke: #dfe5ed;
-                          stroke-width: 0.65;
-                          stroke-linecap: square;
-                        "
+                        style="fill: none; stroke: #dfe5ed; stroke-width: 0.65; stroke-linecap: square"
                       />
                     </g>
                     <g id="g27-line2d_37">
@@ -123942,7 +124018,7 @@ L 876.7296 95.76492
                         <use
                           xlink:href="#g27-m314568df68"
                           x="80.352"
-                          y="95.76492"
+                          y="102.230697"
                           style="fill: #506078; stroke: #506078; stroke-width: 0.8"
                         />
                       </g>
@@ -123957,8 +124033,8 @@ L 876.7296 95.76492
                           fill: #506078;
                         "
                         x="69.852"
-                        y="99.76907"
-                        transform="rotate(-0 69.852 99.76907)"
+                        y="106.234847"
+                        transform="rotate(-0 69.852 106.234847)"
                       >
                         125
                       </text>
@@ -123984,8 +124060,8 @@ L 876.7296 95.76492
                 <g id="g27-patch_3">
                   <path
                     d="M 80.352 310.752 
-L 80.352 71.136 
-"
+        L 80.352 71.136 
+        "
                     style="
                       fill: none;
                       stroke: #afbbcb;
@@ -123998,8 +124074,8 @@ L 80.352 71.136
                 <g id="g27-patch_4">
                   <path
                     d="M 80.352 310.752 
-L 876.7296 310.752 
-"
+        L 876.7296 310.752 
+        "
                     style="
                       fill: none;
                       stroke: #afbbcb;
@@ -124013,11 +124089,11 @@ L 876.7296 310.752
                   <title>S.HARD: 2 charts&#10;Source rating: 1&#10;Source bin: [1, 2); width 1&#10;Height: 2 charts</title>
                   <path
                     d="M 80.352 310.752 
-L 112.207104 310.752 
-L 112.207104 307.312207 
-L 80.352 307.312207 
-z
-"
+        L 112.207104 310.752 
+        L 112.207104 307.415659 
+        L 80.352 307.415659 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124026,11 +124102,11 @@ z
                   <title>S.HARD: 13 charts&#10;Source rating: 2&#10;Source bin: [2, 3); width 1&#10;Height: 13 charts</title>
                   <path
                     d="M 112.207104 310.752 
-L 144.062208 310.752 
-L 144.062208 288.393344 
-L 112.207104 288.393344 
-z
-"
+        L 144.062208 310.752 
+        L 144.062208 289.065784 
+        L 112.207104 289.065784 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124039,11 +124115,11 @@ z
                   <title>S.HARD: 35 charts&#10;Source rating: 3&#10;Source bin: [3, 4); width 1&#10;Height: 35 charts</title>
                   <path
                     d="M 144.062208 310.752 
-L 175.917312 310.752 
-L 175.917312 250.555618 
-L 144.062208 250.555618 
-z
-"
+        L 175.917312 310.752 
+        L 175.917312 252.366035 
+        L 144.062208 252.366035 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124052,11 +124128,11 @@ z
                   <title>S.HARD: 31 charts&#10;Source rating: 4&#10;Source bin: [4, 5); width 1&#10;Height: 31 charts</title>
                   <path
                     d="M 175.917312 310.752 
-L 207.772416 310.752 
-L 207.772416 257.435204 
-L 175.917312 257.435204 
-z
-"
+        L 207.772416 310.752 
+        L 207.772416 259.038717 
+        L 175.917312 259.038717 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124065,11 +124141,11 @@ z
                   <title>S.HARD: 35 charts&#10;Source rating: 5&#10;Source bin: [5, 6); width 1&#10;Height: 35 charts</title>
                   <path
                     d="M 207.772416 310.752 
-L 239.62752 310.752 
-L 239.62752 250.555618 
-L 207.772416 250.555618 
-z
-"
+        L 239.62752 310.752 
+        L 239.62752 252.366035 
+        L 207.772416 252.366035 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124078,11 +124154,11 @@ z
                   <title>S.HARD: 35 charts&#10;Source rating: 6&#10;Source bin: [6, 7); width 1&#10;Height: 35 charts</title>
                   <path
                     d="M 239.62752 310.752 
-L 271.482624 310.752 
-L 271.482624 250.555618 
-L 239.62752 250.555618 
-z
-"
+        L 271.482624 310.752 
+        L 271.482624 252.366035 
+        L 239.62752 252.366035 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124091,11 +124167,11 @@ z
                   <title>S.HARD: 39 charts&#10;Source rating: 7&#10;Source bin: [7, 8); width 1&#10;Height: 39 charts</title>
                   <path
                     d="M 271.482624 310.752 
-L 303.337728 310.752 
-L 303.337728 243.676031 
-L 271.482624 243.676031 
-z
-"
+        L 303.337728 310.752 
+        L 303.337728 245.693353 
+        L 271.482624 245.693353 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124104,11 +124180,11 @@ z
                   <title>S.HARD: 20 charts&#10;Source rating: 8&#10;Source bin: [8, 9); width 1&#10;Height: 20 charts</title>
                   <path
                     d="M 303.337728 310.752 
-L 335.192832 310.752 
-L 335.192832 276.354067 
-L 303.337728 276.354067 
-z
-"
+        L 335.192832 310.752 
+        L 335.192832 277.388591 
+        L 303.337728 277.388591 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124117,11 +124193,11 @@ z
                   <title>S.HARD: 23 charts&#10;Source rating: 9&#10;Source bin: [9, 10); width 1&#10;Height: 23 charts</title>
                   <path
                     d="M 335.192832 310.752 
-L 367.047936 310.752 
-L 367.047936 271.194377 
-L 335.192832 271.194377 
-z
-"
+        L 367.047936 310.752 
+        L 367.047936 272.38408 
+        L 335.192832 272.38408 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124130,11 +124206,11 @@ z
                   <title>S.HARD: 27 charts&#10;Source rating: 10&#10;Source bin: [10, 11); width 1&#10;Height: 27 charts</title>
                   <path
                     d="M 367.047936 310.752 
-L 398.90304 310.752 
-L 398.90304 264.314791 
-L 367.047936 264.314791 
-z
-"
+        L 398.90304 310.752 
+        L 398.90304 265.711398 
+        L 367.047936 265.711398 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124143,11 +124219,11 @@ z
                   <title>S.HARD: 19 charts&#10;Source rating: 11&#10;Source bin: [11, 12); width 1&#10;Height: 19 charts</title>
                   <path
                     d="M 398.90304 310.752 
-L 430.758144 310.752 
-L 430.758144 278.073964 
-L 398.90304 278.073964 
-z
-"
+        L 430.758144 310.752 
+        L 430.758144 279.056762 
+        L 398.90304 279.056762 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124156,11 +124232,11 @@ z
                   <title>S.HARD: 14 charts&#10;Source rating: 12&#10;Source bin: [12, 13); width 1&#10;Height: 14 charts</title>
                   <path
                     d="M 430.758144 310.752 
-L 462.613248 310.752 
-L 462.613248 286.673447 
-L 430.758144 286.673447 
-z
-"
+        L 462.613248 310.752 
+        L 462.613248 287.397614 
+        L 430.758144 287.397614 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124169,11 +124245,11 @@ z
                   <title>S.HARD: 17 charts&#10;Source rating: 13&#10;Source bin: [13, 14); width 1&#10;Height: 17 charts</title>
                   <path
                     d="M 462.613248 310.752 
-L 494.468352 310.752 
-L 494.468352 281.513757 
-L 462.613248 281.513757 
-z
-"
+        L 494.468352 310.752 
+        L 494.468352 282.393103 
+        L 462.613248 282.393103 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124182,11 +124258,11 @@ z
                   <title>S.HARD: 14 charts&#10;Source rating: 14&#10;Source bin: [14, 15); width 1&#10;Height: 14 charts</title>
                   <path
                     d="M 494.468352 310.752 
-L 526.323456 310.752 
-L 526.323456 286.673447 
-L 494.468352 286.673447 
-z
-"
+        L 526.323456 310.752 
+        L 526.323456 287.397614 
+        L 494.468352 287.397614 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124195,11 +124271,11 @@ z
                   <title>S.HARD: 25 charts&#10;Source rating: 15&#10;Source bin: [15, 16); width 1&#10;Height: 25 charts</title>
                   <path
                     d="M 526.323456 310.752 
-L 558.17856 310.752 
-L 558.17856 267.754584 
-L 526.323456 267.754584 
-z
-"
+        L 558.17856 310.752 
+        L 558.17856 269.047739 
+        L 526.323456 269.047739 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124208,11 +124284,11 @@ z
                   <title>S.HARD: 22 charts&#10;Source rating: 16&#10;Source bin: [16, 17); width 1&#10;Height: 22 charts</title>
                   <path
                     d="M 558.17856 310.752 
-L 590.033664 310.752 
-L 590.033664 272.914274 
-L 558.17856 272.914274 
-z
-"
+        L 590.033664 310.752 
+        L 590.033664 274.052251 
+        L 558.17856 274.052251 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124221,11 +124297,11 @@ z
                   <title>S.HARD: 25 charts&#10;Source rating: 17&#10;Source bin: [17, 18); width 1&#10;Height: 25 charts</title>
                   <path
                     d="M 590.033664 310.752 
-L 621.888768 310.752 
-L 621.888768 267.754584 
-L 590.033664 267.754584 
-z
-"
+        L 621.888768 310.752 
+        L 621.888768 269.047739 
+        L 590.033664 269.047739 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124234,11 +124310,11 @@ z
                   <title>S.HARD: 16 charts&#10;Source rating: 18&#10;Source bin: [18, 19); width 1&#10;Height: 16 charts</title>
                   <path
                     d="M 621.888768 310.752 
-L 653.743872 310.752 
-L 653.743872 283.233654 
-L 621.888768 283.233654 
-z
-"
+        L 653.743872 310.752 
+        L 653.743872 284.061273 
+        L 621.888768 284.061273 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124247,11 +124323,11 @@ z
                   <title>S.HARD: 4 charts&#10;Source rating: 19&#10;Source bin: [19, 20); width 1&#10;Height: 4 charts</title>
                   <path
                     d="M 653.743872 310.752 
-L 685.598976 310.752 
-L 685.598976 303.872413 
-L 653.743872 303.872413 
-z
-"
+        L 685.598976 310.752 
+        L 685.598976 304.079318 
+        L 653.743872 304.079318 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124260,11 +124336,11 @@ z
                   <title>S.HARD: 1 charts&#10;Source rating: 21&#10;Source bin: [21, 22); width 1&#10;Height: 1 charts</title>
                   <path
                     d="M 717.45408 310.752 
-L 749.309184 310.752 
-L 749.309184 309.032103 
-L 717.45408 309.032103 
-z
-"
+        L 749.309184 310.752 
+        L 749.309184 309.08383 
+        L 717.45408 309.08383 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #3c77ba"
                   />
@@ -124272,12 +124348,12 @@ z
                 <g id="g27-bin-3-label-1">
                   <title>S.HARD+: 1 charts&#10;Source rating: 4&#10;Source bin: [4, 5); width 1&#10;Height: 1 charts</title>
                   <path
-                    d="M 175.917312 257.435204 
-L 207.772416 257.435204 
-L 207.772416 255.715307 
-L 175.917312 255.715307 
-z
-"
+                    d="M 175.917312 259.038717 
+        L 207.772416 259.038717 
+        L 207.772416 257.370546 
+        L 175.917312 257.370546 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124285,12 +124361,12 @@ z
                 <g id="g27-bin-5-label-1">
                   <title>S.HARD+: 2 charts&#10;Source rating: 6&#10;Source bin: [6, 7); width 1&#10;Height: 2 charts</title>
                   <path
-                    d="M 239.62752 250.555618 
-L 271.482624 250.555618 
-L 271.482624 247.115824 
-L 239.62752 247.115824 
-z
-"
+                    d="M 239.62752 252.366035 
+        L 271.482624 252.366035 
+        L 271.482624 249.029694 
+        L 239.62752 249.029694 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124298,12 +124374,12 @@ z
                 <g id="g27-bin-6-label-1">
                   <title>S.HARD+: 1 charts&#10;Source rating: 7&#10;Source bin: [7, 8); width 1&#10;Height: 1 charts</title>
                   <path
-                    d="M 271.482624 243.676031 
-L 303.337728 243.676031 
-L 303.337728 241.956134 
-L 271.482624 241.956134 
-z
-"
+                    d="M 271.482624 245.693353 
+        L 303.337728 245.693353 
+        L 303.337728 244.025183 
+        L 271.482624 244.025183 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124311,12 +124387,12 @@ z
                 <g id="g27-bin-7-label-1">
                   <title>S.HARD+: 6 charts&#10;Source rating: 8&#10;Source bin: [8, 9); width 1&#10;Height: 6 charts</title>
                   <path
-                    d="M 303.337728 276.354067 
-L 335.192832 276.354067 
-L 335.192832 266.034687 
-L 303.337728 266.034687 
-z
-"
+                    d="M 303.337728 277.388591 
+        L 335.192832 277.388591 
+        L 335.192832 267.379569 
+        L 303.337728 267.379569 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124324,12 +124400,12 @@ z
                 <g id="g27-bin-8-label-1">
                   <title>S.HARD+: 3 charts&#10;Source rating: 9&#10;Source bin: [9, 10); width 1&#10;Height: 3 charts</title>
                   <path
-                    d="M 335.192832 271.194377 
-L 367.047936 271.194377 
-L 367.047936 266.034687 
-L 335.192832 266.034687 
-z
-"
+                    d="M 335.192832 272.38408 
+        L 367.047936 272.38408 
+        L 367.047936 267.379569 
+        L 335.192832 267.379569 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124337,12 +124413,12 @@ z
                 <g id="g27-bin-9-label-1">
                   <title>S.HARD+: 7 charts&#10;Source rating: 10&#10;Source bin: [10, 11); width 1&#10;Height: 7 charts</title>
                   <path
-                    d="M 367.047936 264.314791 
-L 398.90304 264.314791 
-L 398.90304 252.275514 
-L 367.047936 252.275514 
-z
-"
+                    d="M 367.047936 265.711398 
+        L 398.90304 265.711398 
+        L 398.90304 254.034206 
+        L 367.047936 254.034206 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124350,12 +124426,12 @@ z
                 <g id="g27-bin-10-label-1">
                   <title>S.HARD+: 14 charts&#10;Source rating: 11&#10;Source bin: [11, 12); width 1&#10;Height: 14 charts</title>
                   <path
-                    d="M 398.90304 278.073964 
-L 430.758144 278.073964 
-L 430.758144 253.995411 
-L 398.90304 253.995411 
-z
-"
+                    d="M 398.90304 279.056762 
+        L 430.758144 279.056762 
+        L 430.758144 255.702376 
+        L 398.90304 255.702376 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124363,12 +124439,12 @@ z
                 <g id="g27-bin-11-label-1">
                   <title>S.HARD+: 14 charts&#10;Source rating: 12&#10;Source bin: [12, 13); width 1&#10;Height: 14 charts</title>
                   <path
-                    d="M 430.758144 286.673447 
-L 462.613248 286.673447 
-L 462.613248 262.594894 
-L 430.758144 262.594894 
-z
-"
+                    d="M 430.758144 287.397614 
+        L 462.613248 287.397614 
+        L 462.613248 264.043228 
+        L 430.758144 264.043228 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124376,12 +124452,12 @@ z
                 <g id="g27-bin-12-label-1">
                   <title>S.HARD+: 18 charts&#10;Source rating: 13&#10;Source bin: [13, 14); width 1&#10;Height: 18 charts</title>
                   <path
-                    d="M 462.613248 281.513757 
-L 494.468352 281.513757 
-L 494.468352 250.555618 
-L 462.613248 250.555618 
-z
-"
+                    d="M 462.613248 282.393103 
+        L 494.468352 282.393103 
+        L 494.468352 252.366035 
+        L 462.613248 252.366035 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124389,12 +124465,12 @@ z
                 <g id="g27-bin-13-label-1">
                   <title>S.HARD+: 18 charts&#10;Source rating: 14&#10;Source bin: [14, 15); width 1&#10;Height: 18 charts</title>
                   <path
-                    d="M 494.468352 286.673447 
-L 526.323456 286.673447 
-L 526.323456 255.715307 
-L 494.468352 255.715307 
-z
-"
+                    d="M 494.468352 287.397614 
+        L 526.323456 287.397614 
+        L 526.323456 257.370546 
+        L 494.468352 257.370546 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124402,12 +124478,12 @@ z
                 <g id="g27-bin-14-label-1">
                   <title>S.HARD+: 28 charts&#10;Source rating: 15&#10;Source bin: [15, 16); width 1&#10;Height: 28 charts</title>
                   <path
-                    d="M 526.323456 267.754584 
-L 558.17856 267.754584 
-L 558.17856 219.597478 
-L 526.323456 219.597478 
-z
-"
+                    d="M 526.323456 269.047739 
+        L 558.17856 269.047739 
+        L 558.17856 222.338967 
+        L 526.323456 222.338967 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124415,12 +124491,12 @@ z
                 <g id="g27-bin-15-label-1">
                   <title>S.HARD+: 45 charts&#10;Source rating: 16&#10;Source bin: [16, 17); width 1&#10;Height: 45 charts</title>
                   <path
-                    d="M 558.17856 272.914274 
-L 590.033664 272.914274 
-L 590.033664 195.518925 
-L 558.17856 195.518925 
-z
-"
+                    d="M 558.17856 274.052251 
+        L 590.033664 274.052251 
+        L 590.033664 198.984581 
+        L 558.17856 198.984581 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124428,12 +124504,12 @@ z
                 <g id="g27-bin-16-label-1">
                   <title>S.HARD+: 34 charts&#10;Source rating: 17&#10;Source bin: [17, 18); width 1&#10;Height: 34 charts</title>
                   <path
-                    d="M 590.033664 267.754584 
-L 621.888768 267.754584 
-L 621.888768 209.278098 
-L 590.033664 209.278098 
-z
-"
+                    d="M 590.033664 269.047739 
+        L 621.888768 269.047739 
+        L 621.888768 212.329945 
+        L 590.033664 212.329945 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124441,12 +124517,12 @@ z
                 <g id="g27-bin-17-label-1">
                   <title>S.HARD+: 44 charts&#10;Source rating: 18&#10;Source bin: [18, 19); width 1&#10;Height: 44 charts</title>
                   <path
-                    d="M 621.888768 283.233654 
-L 653.743872 283.233654 
-L 653.743872 207.558202 
-L 621.888768 207.558202 
-z
-"
+                    d="M 621.888768 284.061273 
+        L 653.743872 284.061273 
+        L 653.743872 210.661774 
+        L 621.888768 210.661774 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124454,12 +124530,12 @@ z
                 <g id="g27-bin-18-label-1">
                   <title>S.HARD+: 45 charts&#10;Source rating: 19&#10;Source bin: [19, 20); width 1&#10;Height: 45 charts</title>
                   <path
-                    d="M 653.743872 303.872413 
-L 685.598976 303.872413 
-L 685.598976 226.477065 
-L 653.743872 226.477065 
-z
-"
+                    d="M 653.743872 304.079318 
+        L 685.598976 304.079318 
+        L 685.598976 229.011649 
+        L 653.743872 229.011649 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124468,11 +124544,11 @@ z
                   <title>S.HARD+: 42 charts&#10;Source rating: 20&#10;Source bin: [20, 21); width 1&#10;Height: 42 charts</title>
                   <path
                     d="M 685.598976 310.752 
-L 717.45408 310.752 
-L 717.45408 238.516341 
-L 685.598976 238.516341 
-z
-"
+        L 717.45408 310.752 
+        L 717.45408 240.688842 
+        L 685.598976 240.688842 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124480,12 +124556,12 @@ z
                 <g id="g27-bin-20-label-1">
                   <title>S.HARD+: 45 charts&#10;Source rating: 21&#10;Source bin: [21, 22); width 1&#10;Height: 45 charts</title>
                   <path
-                    d="M 717.45408 309.032103 
-L 749.309184 309.032103 
-L 749.309184 231.636755 
-L 717.45408 231.636755 
-z
-"
+                    d="M 717.45408 309.08383 
+        L 749.309184 309.08383 
+        L 749.309184 234.01616 
+        L 717.45408 234.01616 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124494,11 +124570,11 @@ z
                   <title>S.HARD+: 30 charts&#10;Source rating: 22&#10;Source bin: [22, 23); width 1&#10;Height: 30 charts</title>
                   <path
                     d="M 749.309184 310.752 
-L 781.164288 310.752 
-L 781.164288 259.155101 
-L 749.309184 259.155101 
-z
-"
+        L 781.164288 310.752 
+        L 781.164288 260.706887 
+        L 749.309184 260.706887 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124507,11 +124583,11 @@ z
                   <title>S.HARD+: 24 charts&#10;Source rating: 23&#10;Source bin: [23, 24); width 1&#10;Height: 24 charts</title>
                   <path
                     d="M 781.164288 310.752 
-L 813.019392 310.752 
-L 813.019392 269.474481 
-L 781.164288 269.474481 
-z
-"
+        L 813.019392 310.752 
+        L 813.019392 270.71591 
+        L 781.164288 270.71591 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124520,11 +124596,11 @@ z
                   <title>S.HARD+: 2 charts&#10;Source rating: 24&#10;Source bin: [24, 25); width 1&#10;Height: 2 charts</title>
                   <path
                     d="M 813.019392 310.752 
-L 844.874496 310.752 
-L 844.874496 307.312207 
-L 813.019392 307.312207 
-z
-"
+        L 844.874496 310.752 
+        L 844.874496 307.415659 
+        L 813.019392 307.415659 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #d53b3b"
                   />
@@ -124532,12 +124608,12 @@ z
                 <g id="g27-bin-10-label-2">
                   <title>CHAOS: 1 charts&#10;Source rating: 11&#10;Source bin: [11, 12); width 1&#10;Height: 1 charts</title>
                   <path
-                    d="M 398.90304 253.995411 
-L 430.758144 253.995411 
-L 430.758144 252.275514 
-L 398.90304 252.275514 
-z
-"
+                    d="M 398.90304 255.702376 
+        L 430.758144 255.702376 
+        L 430.758144 254.034206 
+        L 398.90304 254.034206 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124545,12 +124621,12 @@ z
                 <g id="g27-bin-12-label-2">
                   <title>CHAOS: 1 charts&#10;Source rating: 13&#10;Source bin: [13, 14); width 1&#10;Height: 1 charts</title>
                   <path
-                    d="M 462.613248 250.555618 
-L 494.468352 250.555618 
-L 494.468352 248.835721 
-L 462.613248 248.835721 
-z
-"
+                    d="M 462.613248 252.366035 
+        L 494.468352 252.366035 
+        L 494.468352 250.697865 
+        L 462.613248 250.697865 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124558,12 +124634,12 @@ z
                 <g id="g27-bin-13-label-2">
                   <title>CHAOS: 1 charts&#10;Source rating: 14&#10;Source bin: [14, 15); width 1&#10;Height: 1 charts</title>
                   <path
-                    d="M 494.468352 255.715307 
-L 526.323456 255.715307 
-L 526.323456 253.995411 
-L 494.468352 253.995411 
-z
-"
+                    d="M 494.468352 257.370546 
+        L 526.323456 257.370546 
+        L 526.323456 255.702376 
+        L 494.468352 255.702376 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124571,12 +124647,12 @@ z
                 <g id="g27-bin-14-label-2">
                   <title>CHAOS: 2 charts&#10;Source rating: 15&#10;Source bin: [15, 16); width 1&#10;Height: 2 charts</title>
                   <path
-                    d="M 526.323456 219.597478 
-L 558.17856 219.597478 
-L 558.17856 216.157685 
-L 526.323456 216.157685 
-z
-"
+                    d="M 526.323456 222.338967 
+        L 558.17856 222.338967 
+        L 558.17856 219.002627 
+        L 526.323456 219.002627 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124584,12 +124660,12 @@ z
                 <g id="g27-bin-15-label-2">
                   <title>CHAOS: 1 charts&#10;Source rating: 16&#10;Source bin: [16, 17); width 1&#10;Height: 1 charts</title>
                   <path
-                    d="M 558.17856 195.518925 
-L 590.033664 195.518925 
-L 590.033664 193.799028 
-L 558.17856 193.799028 
-z
-"
+                    d="M 558.17856 198.984581 
+        L 590.033664 198.984581 
+        L 590.033664 197.316411 
+        L 558.17856 197.316411 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124597,12 +124673,12 @@ z
                 <g id="g27-bin-16-label-2">
                   <title>CHAOS: 5 charts&#10;Source rating: 17&#10;Source bin: [17, 18); width 1&#10;Height: 5 charts</title>
                   <path
-                    d="M 590.033664 209.278098 
-L 621.888768 209.278098 
-L 621.888768 200.678615 
-L 590.033664 200.678615 
-z
-"
+                    d="M 590.033664 212.329945 
+        L 621.888768 212.329945 
+        L 621.888768 203.989093 
+        L 590.033664 203.989093 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124610,12 +124686,12 @@ z
                 <g id="g27-bin-17-label-2">
                   <title>CHAOS: 11 charts&#10;Source rating: 18&#10;Source bin: [18, 19); width 1&#10;Height: 11 charts</title>
                   <path
-                    d="M 621.888768 207.558202 
-L 653.743872 207.558202 
-L 653.743872 188.639339 
-L 621.888768 188.639339 
-z
-"
+                    d="M 621.888768 210.661774 
+        L 653.743872 210.661774 
+        L 653.743872 192.3119 
+        L 621.888768 192.3119 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124623,12 +124699,12 @@ z
                 <g id="g27-bin-18-label-2">
                   <title>CHAOS: 21 charts&#10;Source rating: 19&#10;Source bin: [19, 20); width 1&#10;Height: 21 charts</title>
                   <path
-                    d="M 653.743872 226.477065 
-L 685.598976 226.477065 
-L 685.598976 190.359235 
-L 653.743872 190.359235 
-z
-"
+                    d="M 653.743872 229.011649 
+        L 685.598976 229.011649 
+        L 685.598976 193.98007 
+        L 653.743872 193.98007 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124636,12 +124712,12 @@ z
                 <g id="g27-bin-19-label-2">
                   <title>CHAOS: 51 charts&#10;Source rating: 20&#10;Source bin: [20, 21); width 1&#10;Height: 51 charts</title>
                   <path
-                    d="M 685.598976 238.516341 
-L 717.45408 238.516341 
-L 717.45408 150.801612 
-L 685.598976 150.801612 
-z
-"
+                    d="M 685.598976 240.688842 
+        L 717.45408 240.688842 
+        L 717.45408 155.61215 
+        L 685.598976 155.61215 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124649,12 +124725,12 @@ z
                 <g id="g27-bin-20-label-2">
                   <title>CHAOS: 68 charts&#10;Source rating: 21&#10;Source bin: [21, 22); width 1&#10;Height: 68 charts</title>
                   <path
-                    d="M 717.45408 231.636755 
-L 749.309184 231.636755 
-L 749.309184 114.683783 
-L 717.45408 114.683783 
-z
-"
+                    d="M 717.45408 234.01616 
+        L 749.309184 234.01616 
+        L 749.309184 120.580571 
+        L 717.45408 120.580571 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124662,12 +124738,12 @@ z
                 <g id="g27-bin-21-label-2">
                   <title>CHAOS: 69 charts&#10;Source rating: 22&#10;Source bin: [22, 23); width 1&#10;Height: 69 charts</title>
                   <path
-                    d="M 749.309184 259.155101 
-L 781.164288 259.155101 
-L 781.164288 140.482233 
-L 749.309184 140.482233 
-z
-"
+                    d="M 749.309184 260.706887 
+        L 781.164288 260.706887 
+        L 781.164288 145.603128 
+        L 749.309184 145.603128 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124675,12 +124751,12 @@ z
                 <g id="g27-bin-22-label-2">
                   <title>CHAOS: 52 charts&#10;Source rating: 23&#10;Source bin: [23, 24); width 1&#10;Height: 52 charts</title>
                   <path
-                    d="M 781.164288 269.474481 
-L 813.019392 269.474481 
-L 813.019392 180.039855 
-L 781.164288 180.039855 
-z
-"
+                    d="M 781.164288 270.71591 
+        L 813.019392 270.71591 
+        L 813.019392 183.971048 
+        L 781.164288 183.971048 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124688,12 +124764,12 @@ z
                 <g id="g27-bin-23-label-2">
                   <title>CHAOS: 9 charts&#10;Source rating: 24&#10;Source bin: [24, 25); width 1&#10;Height: 9 charts</title>
                   <path
-                    d="M 813.019392 307.312207 
-L 844.874496 307.312207 
-L 844.874496 291.833137 
-L 813.019392 291.833137 
-z
-"
+                    d="M 813.019392 307.415659 
+        L 844.874496 307.415659 
+        L 844.874496 292.402125 
+        L 813.019392 292.402125 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #9633b2"
                   />
@@ -124701,12 +124777,12 @@ z
                 <g id="g27-bin-18-label-3">
                   <title>COSMOS: 2 charts&#10;Source rating: 19&#10;Source bin: [19, 20); width 1&#10;Height: 2 charts</title>
                   <path
-                    d="M 653.743872 190.359235 
-L 685.598976 190.359235 
-L 685.598976 186.919442 
-L 653.743872 186.919442 
-z
-"
+                    d="M 653.743872 193.98007 
+        L 685.598976 193.98007 
+        L 685.598976 190.643729 
+        L 653.743872 190.643729 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #267e88"
                   />
@@ -124714,12 +124790,12 @@ z
                 <g id="g27-bin-20-label-3">
                   <title>COSMOS: 1 charts&#10;Source rating: 21&#10;Source bin: [21, 22); width 1&#10;Height: 1 charts</title>
                   <path
-                    d="M 717.45408 114.683783 
-L 749.309184 114.683783 
-L 749.309184 112.963886 
-L 717.45408 112.963886 
-z
-"
+                    d="M 717.45408 120.580571 
+        L 749.309184 120.580571 
+        L 749.309184 118.912401 
+        L 717.45408 118.912401 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #267e88"
                   />
@@ -124727,12 +124803,12 @@ z
                 <g id="g27-bin-21-label-3">
                   <title>COSMOS: 17 charts&#10;Source rating: 22&#10;Source bin: [22, 23); width 1&#10;Height: 17 charts</title>
                   <path
-                    d="M 749.309184 140.482233 
-L 781.164288 140.482233 
-L 781.164288 111.24399 
-L 749.309184 111.24399 
-z
-"
+                    d="M 749.309184 145.603128 
+        L 781.164288 145.603128 
+        L 781.164288 117.244231 
+        L 749.309184 117.244231 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #267e88"
                   />
@@ -124740,12 +124816,12 @@ z
                 <g id="g27-bin-22-label-3">
                   <title>COSMOS: 53 charts&#10;Source rating: 23&#10;Source bin: [23, 24); width 1&#10;Height: 53 charts</title>
                   <path
-                    d="M 781.164288 180.039855 
-L 813.019392 180.039855 
-L 813.019392 88.885333 
-L 781.164288 88.885333 
-z
-"
+                    d="M 781.164288 183.971048 
+        L 813.019392 183.971048 
+        L 813.019392 95.558015 
+        L 781.164288 95.558015 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #267e88"
                   />
@@ -124753,12 +124829,12 @@ z
                 <g id="g27-bin-23-label-3">
                   <title>COSMOS: 70 charts&#10;Source rating: 24&#10;Source bin: [24, 25); width 1&#10;Height: 70 charts</title>
                   <path
-                    d="M 813.019392 291.833137 
-L 844.874496 291.833137 
-L 844.874496 171.440372 
-L 813.019392 171.440372 
-z
-"
+                    d="M 813.019392 292.402125 
+        L 844.874496 292.402125 
+        L 844.874496 175.630195 
+        L 813.019392 175.630195 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #267e88"
                   />
@@ -124767,11 +124843,11 @@ z
                   <title>COSMOS: 75 charts&#10;Source rating: 25&#10;Source bin: [25, 26); width 1&#10;Height: 75 charts</title>
                   <path
                     d="M 844.874496 310.752 
-L 876.7296 310.752 
-L 876.7296 181.759752 
-L 844.874496 181.759752 
-z
-"
+        L 876.7296 310.752 
+        L 876.7296 185.639218 
+        L 844.874496 185.639218 
+        z
+        "
                     clip-path="url(#g27-p0a6bd265db)"
                     style="fill: #267e88"
                   />
@@ -124782,8 +124858,7 @@ z
                   style="
                     font-weight: 700;
                     font-size: 17px;
-                    font-family:
-                      &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                    font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                     text-anchor: start;
                     fill: #182238;
                   "
@@ -124798,8 +124873,7 @@ z
                 <text
                   style="
                     font-size: 10.5px;
-                    font-family:
-                      &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                    font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                     text-anchor: start;
                     fill: #506078;
                   "
@@ -124814,11 +124888,11 @@ z
                 <g id="g27-patch_5">
                   <path
                     d="M 83.5452 63.7407 
-L 96.8452 63.7407 
-L 96.8452 56.4732 
-L 83.5452 56.4732 
-z
-"
+        L 96.8452 63.7407 
+        L 96.8452 56.4732 
+        L 83.5452 56.4732 
+        z
+        "
                     style="fill: #3c77ba"
                   />
                 </g>
@@ -124826,8 +124900,7 @@ z
                   <text
                     style="
                       font-size: 9.5px;
-                      font-family:
-                        &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                      font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                       text-anchor: start;
                       fill: #182238;
                     "
@@ -124841,11 +124914,11 @@ z
                 <g id="g27-patch_6">
                   <path
                     d="M 149.365356 63.7407 
-L 162.665356 63.7407 
-L 162.665356 56.4732 
-L 149.365356 56.4732 
-z
-"
+        L 162.665356 63.7407 
+        L 162.665356 56.4732 
+        L 149.365356 56.4732 
+        z
+        "
                     style="fill: #d53b3b"
                   />
                 </g>
@@ -124853,8 +124926,7 @@ z
                   <text
                     style="
                       font-size: 9.5px;
-                      font-family:
-                        &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                      font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                       text-anchor: start;
                       fill: #182238;
                     "
@@ -124868,11 +124940,11 @@ z
                 <g id="g27-patch_7">
                   <path
                     d="M 220.734106 63.7407 
-L 234.034106 63.7407 
-L 234.034106 56.4732 
-L 220.734106 56.4732 
-z
-"
+        L 234.034106 63.7407 
+        L 234.034106 56.4732 
+        L 220.734106 56.4732 
+        z
+        "
                     style="fill: #9633b2"
                   />
                 </g>
@@ -124880,8 +124952,7 @@ z
                   <text
                     style="
                       font-size: 9.5px;
-                      font-family:
-                        &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                      font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                       text-anchor: start;
                       fill: #182238;
                     "
@@ -124895,11 +124966,11 @@ z
                 <g id="g27-patch_8">
                   <path
                     d="M 284.443481 63.7407 
-L 297.743481 63.7407 
-L 297.743481 56.4732 
-L 284.443481 56.4732 
-z
-"
+        L 297.743481 63.7407 
+        L 297.743481 56.4732 
+        L 284.443481 56.4732 
+        z
+        "
                     style="fill: #267e88"
                   />
                 </g>
@@ -124907,8 +124978,7 @@ z
                   <text
                     style="
                       font-size: 9.5px;
-                      font-family:
-                        &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
+                      font-family: &quot;Arial&quot;, &quot;DejaVu Sans&quot;, &quot;Segoe UI Symbol&quot;;
                       text-anchor: start;
                       fill: #182238;
                     "
@@ -125175,8 +125245,8 @@ z
         >
       </p>
     </section>
-    <section class="game-section" id="game-g61" aria-labelledby="game-g61-heading">
-      <h3 id="game-g61-heading">OverRapid — 3.3.1</h3>
+    <section class="game-section" id="game-g61" aria-labelledby="overrapid">
+      <h3 id="overrapid">OverRapid — 3.3.1</h3>
       <p class="game-description">
         Mobile catalogue with 4K and 6K counted separately. Displayed levels are used. Removed
         songs, beta-only charts, retired ARCANE charts, and the unrated BROKEN chart are excluded.
@@ -125190,8 +125260,8 @@ z
           6K
         </button>
       </div>
-      <section class="mode-section" id="g61" aria-labelledby="g61-heading">
-        <h4 id="g61-heading">4K</h4>
+      <section class="mode-section" id="g61" aria-labelledby="overrapid-4k">
+        <h4 id="overrapid-4k">4K</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -126859,8 +126929,8 @@ z
           </div>
         </details>
       </section>
-      <section class="mode-section" id="g62" aria-labelledby="g62-heading" hidden>
-        <h4 id="g62-heading">6K</h4>
+      <section class="mode-section" id="g62" aria-labelledby="overrapid-6k" hidden>
+        <h4 id="overrapid-6k">6K</h4>
         <figure class="histogram">
           <svg
             class="density-chart"
@@ -128794,8 +128864,8 @@ z
         <a href="https://apps.apple.com/us/app/overrapid/id994425296">apps.apple.com</a>
       </p>
     </section>
-    <section class="game-section" id="g32" aria-labelledby="g32-heading">
-      <h3 id="g32-heading">Project SEKAI — Japan catalogue, 29 Oct 2026</h3>
+    <section class="game-section" id="g32" aria-labelledby="project-sekai">
+      <h3 id="project-sekai">Project SEKAI — Japan catalogue, 29 Oct 2026</h3>
       <p class="game-description">
         Japanese catalogue from the public primary-game-data mirror. All five standard labels have
         728 charts; APPEND has 148. Alternate vocal recordings do not multiply counts.
@@ -131511,8 +131581,8 @@ z
         <a href="https://sekai.best/">sekai.best</a>
       </p>
     </section>
-    <section class="game-section" id="g33" aria-labelledby="g33-heading">
-      <h3 id="g33-heading">BanG Dream! Girls Band Party! — Japan catalogue, 29 Oct 2026</h3>
+    <section class="game-section" id="g33" aria-labelledby="bang-dream-girls-band-party">
+      <h3 id="bang-dream-girls-band-party">BanG Dream! Girls Band Party! — Japan catalogue, 29 Oct 2026</h3>
       <p class="game-description">
         Japanese catalogue from Bestdori. Song and SPECIAL-chart release dates and removed-song
         close dates are applied. Alternate recordings count once unless they have distinct playable
@@ -133550,8 +133620,8 @@ z
         <a href="https://bestdori.com/info/songs">bestdori.com</a>
       </p>
     </section>
-    <section class="game-section" id="g34" aria-labelledby="g34-heading">
-      <h3 id="g34-heading">Ensemble Stars!! Music — Japan catalogue, 29 Oct 2026</h3>
+    <section class="game-section" id="g34" aria-labelledby="ensemble-stars-music">
+      <h3 id="ensemble-stars-music">Ensemble Stars!! Music — Japan catalogue, 29 Oct 2026</h3>
       <p class="game-description">
         Japanese Music catalogue. The English wiki’s full current 323-song regular Japan list is
         supplemented by newer Japanese song-page ratings where matched. Expired Japan collaboration
@@ -137095,8 +137165,8 @@ z
         <a href="https://enst-lab.com/songs.php">enst-lab.com</a>
       </p>
     </section>
-    <section class="game-section" id="g35" aria-labelledby="g35-heading">
-      <h3 id="g35-heading">D4DJ Groovy Mix — Japan catalogue, 29 Oct 2026</h3>
+    <section class="game-section" id="g35" aria-labelledby="d4dj-groovy-mix">
+      <h3 id="d4dj-groovy-mix">D4DJ Groovy Mix — Japan catalogue, 29 Oct 2026</h3>
       <p class="game-description">
         Japanese service. Public MusicMaster/ChartMaster records are filtered by publish and close
         dates; the tutorial is excluded. Numeric GROOVY variants on the ordinary 1–16 scale are
@@ -140535,8 +140605,8 @@ z
         >, <a href="https://wikiwiki.jp/d4dj_gm/収録曲一覧">wikiwiki.jp</a>
       </p>
     </section>
-    <section class="game-section" id="g36" aria-labelledby="g36-heading">
-      <h3 id="g36-heading">Million Live! Theater Days — Japan catalogue, 29 Oct 2026</h3>
+    <section class="game-section" id="g36" aria-labelledby="million-live-theater-days">
+      <h3 id="million-live-theater-days">Million Live! Theater Days — Japan catalogue, 29 Oct 2026</h3>
       <p class="game-description">
         Japanese service. The four type-based song lists are combined. Repeated unlock-method
         listings are excluded. Five ordinary numeric difficulty labels are retained; alternate song
@@ -142108,8 +142178,8 @@ z
         Sources: <a href="https://gamerch.com/imasml-theater/471341">gamerch.com</a>
       </p>
     </section>
-    <section class="game-section" id="g63" aria-labelledby="g63-heading">
-      <h3 id="g63-heading">BlackStar –Theater Starless– — Catalogue · 30 October 2026</h3>
+    <section class="game-section" id="g63" aria-labelledby="blackstar-theater-starless">
+      <h3 id="blackstar-theater-starless">BlackStar –Theater Starless– — Catalogue · 30 October 2026</h3>
       <p class="game-description">
         Japanese mobile catalogue, including unlockable, paid and catalogued vocal-version charts.
         Displayed levels are used; charts without a usable published numeric level are omitted.
@@ -144326,7 +144396,8 @@ z
           if (!button) return;
           selectMode(button.closest(".game-section"), button.dataset.modeView);
           try {
-            history.replaceState(history.state, "", "#" + button.dataset.modeView);
+            const panel = document.getElementById(button.dataset.modeView);
+            history.replaceState(history.state, "", "#" + panel.getAttribute("aria-labelledby"));
           } catch (error) {}
         });
         function revealHash() {
