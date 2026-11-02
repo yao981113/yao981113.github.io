@@ -21,6 +21,8 @@ Algebraic and geometric combinatorics, especially combinatorics related to matro
 
 (In reverse chronological order)
 
+* **Traveling Salesman Problem on Graphs with Proportional Independent Set**, Ethan X. Fang, Shengtao Guo, Junwei Lu, Yuan Yao (+AI)
+  * [arXiv:2610.41178](https://www.arxiv.org/abs/2610.41178)
 * **Unimodality of Independence Polynomials for Sufficiently Large Forests**, Ethan X. Fang, Junwei Lu, Eran Nevo, Yuan Yao, Hailun Zheng (+AI)
   * [arXiv:2609.20961](https://www.arxiv.org/abs/2609.20961)
 * **Binary X-rays of doubly stochastic matrices**, Bangzheng Li, Yuewei Liu, Yuan Yao
